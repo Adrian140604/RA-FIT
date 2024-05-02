@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(139, 129, 129, 0.24);
+
+}
+
+#nav {
+    height: 130px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between; /* Para alinear los elementos horizontalmente */
+    align-items: center; /* Para alinear verticalmente los elementos */
+}
+
+#login,#registro{
+    float: right;
+    height: 40px;
+    width: 200px;
+    margin: 20px;
+    
+}
+
+#logo{
+    height: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 1px;
+    border-radius: 100px;
+
+}
+
+#registros{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#registro:hover{
+    background-color: white;
+}
+#login:hover{
+    background-color: white;
+}
+
+
+#enlaces {
+    display: flex;
+    align-items: center; /* Para alinear los elementos del #enlaces verticalmente */
+    margin-left: 20px; /* Ajusta este valor según tu preferencia */
+    text-align: left;
+
+}
+#carrusel{
+    border: 1px solid black;
+    height: 400px;
+
+}
+
+#descuento{
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    height: 70px;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(127, 255, 212, 0.521);
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+#letraverano{
+    color: yellow;
+    
+}
