@@ -1,0 +1,34 @@
+header, footer {
+    text-align: center;
+    padding: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor1 {
+    width: 0 auto;
+}
+
+.contenedor2{
+    box-sizing: border-box;
+}
+
+.horario, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.redes_sociales {
+    box-sizing: border-box;
+    float: right;
+}
