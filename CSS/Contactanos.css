@@ -1,6 +1,29 @@
-header, footer {
+header {
     text-align: center;
     padding: 4px;
+}
+
+#izq {
+    float: left;
+}
+
+#drch {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red2 {
+    clear: both;
+}
+
+.red3 {
+    clear: both;
+}
+
+.red4 {
+    clear: both;
 }
 
 h1 {
@@ -13,12 +36,31 @@ h1 {
 
 .contenedor2{
     box-sizing: border-box;
+    clear: both;
 }
 
-.horario, tr, td {
-    border: 1px solid black;
+.contenedor3 {
+    box-sizing: border-box;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 4px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.horario, tr, td, th {
+    border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
+}
+
+table {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -32,3 +74,11 @@ h1 {
     box-sizing: border-box;
     float: right;
 }
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
