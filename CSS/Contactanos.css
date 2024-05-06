@@ -3,28 +3,6 @@ header {
     padding: 4px;
 }
 
-#izq {
-    float: left;
-}
-
-#drch {
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.red2 {
-    clear: both;
-}
-
-.red3 {
-    clear: both;
-}
-
-.red4 {
-    clear: both;
-}
 
 h1 {
     text-align: center;
@@ -32,6 +10,7 @@ h1 {
 
 .contenedor1 {
     width: 0 auto;
+    margin-bottom: 40%;
 }
 
 .contenedor2{
@@ -63,16 +42,24 @@ table {
     margin: 0 auto;
 }
 
+
+
 .logo {
     margin: 0 auto;
     box-sizing: border-box;
     float: left;
+    align-items: center;
+    margin-left: 15%;
 
 }
 
 .redes_sociales {
     box-sizing: border-box;
     float: right;
+    align-items: center;
+    margin-right: 25%;
+    margin-top: 5%;
+    border: 1px solid black;
 }
 
 .material-symbols-outlined {
@@ -80,5 +67,21 @@ table {
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 24
-  }
+    'opsz' 24;
+}
+
+.red1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+
+.r1l {
+    float: left;
+    margin: 0 10px;
+}
+
+.r1r {
+    float: right;
+    margin: 0 10px;
+}
