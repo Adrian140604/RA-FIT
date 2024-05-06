@@ -9,15 +9,30 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px;
     text-align: center;
+    
 }
 
-#nav {
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
 
 #logo img {
     height: 50px;
@@ -106,4 +121,16 @@ footer a:hover {
     width: 100%;
     height: auto;
     transition: transform 0.5s ease;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
 }
