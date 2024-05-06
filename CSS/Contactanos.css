@@ -10,6 +10,7 @@ h1 {
 
 .contenedor1 {
     width: 0 auto;
+    margin-top: 5%;
     margin-bottom: 40%;
 }
 
@@ -49,7 +50,7 @@ table {
     box-sizing: border-box;
     float: left;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 20%;
 
 }
 
@@ -57,9 +58,9 @@ table {
     box-sizing: border-box;
     float: right;
     align-items: center;
-    margin-right: 25%;
+    margin-right: 30%;
     margin-top: 5%;
-    border: 1px solid black;
+    padding: 4px;
 }
 
 .material-symbols-outlined {
@@ -76,12 +77,16 @@ table {
     align-items: center;
 }
 
+.red2, .red3, .red4 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
 .r1l {
-    float: left;
     margin: 0 10px;
 }
 
 .r1r {
-    float: right;
     margin: 0 10px;
 }
