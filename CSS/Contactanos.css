@@ -3,6 +3,43 @@ header {
     padding: 4px;
 }
 
+#nav {
+    height: 130px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between; /* Para alinear los elementos horizontalmente */
+    align-items: center; /* Para alinear verticalmente los elementos */
+}
+
+#login,#registro{
+    float: right;
+    height: 40px;
+    width: 200px;
+    margin: 20px;
+    
+}
+
+#logo{
+    height: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 1px;
+    border-radius: 100px;
+
+}
+
+#registros{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#registro:hover{
+    background-color: white;
+}
+#login:hover{
+    background-color: white;
+}
 
 h1 {
     text-align: center;
@@ -45,7 +82,7 @@ table {
 
 
 
-.logo {
+.logoclass {
     margin: 0 auto;
     box-sizing: border-box;
     float: left;

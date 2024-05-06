@@ -1,73 +1,109 @@
-body{
-    background-color: rgba(139, 129, 129, 0.24);
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 #nav {
-    height: 130px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: beige;
     display: flex;
-    justify-content: space-between; /* Para alinear los elementos horizontalmente */
-    align-items: center; /* Para alinear verticalmente los elementos */
+    justify-content: space-between;
+    align-items: center;
 }
 
-#login,#registro{
-    float: right;
-    height: 40px;
-    width: 200px;
-    margin: 20px;
-    
+#logo img {
+    height: 50px;
+    border-radius: 100%;
 }
 
-#logo{
-    height: 100px;
-    float: left;
-    margin-left: 100px;
-    margin-top: 1px;
-    border-radius: 100px;
-
+#apartados a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-#registros{
-    margin-right: 30px;
-    margin-top: 10px;
-}
-#registro:hover{
-    background-color: white;
-}
-#login:hover{
-    background-color: white;
+#apartados a:hover {
+    background-color: #555;
 }
 
-
-#enlaces {
-    display: flex;
-    align-items: center; /* Para alinear los elementos del #enlaces verticalmente */
-    margin-left: 20px; /* Ajusta este valor según tu preferencia */
-    text-align: left;
-
-}
-#carrusel{
-    border: 1px solid black;
-    height: 400px;
-
+#registros button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
-#descuento{
-    margin-top: 20px;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    height: 70px;
+
+
+/* Estilos del descuento */
+#descuento {
+    background-color: #ffcc00;
     text-align: center;
-    font-size: 14px;
-    background-color: rgba(127, 255, 212, 0.521);
-    font-weight: bold; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+    padding: 20px 0;
 }
-#letraverano{
-    color: yellow;
-    
+
+#letraverano {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos del contenido principal */
+#carrusel,
+#MasVendidos,
+#OfertaFlash,
+#Testimonios {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+/*Estilos del carrusel*/
+
+.carousel {
+    position: relative;
+    max-width: 600px; /* Ajusta el tamaño máximo del carrusel según tus necesidades */
+    margin: auto;
+}
+
+.carousel-images {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
 }
