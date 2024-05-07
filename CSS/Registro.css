@@ -5,6 +5,13 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url('../IMAGENES/ImagenFondo3.jpg');
+    background-size: cover;
+    background-position-x: center;
+    margin: 0%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
 }
 
 header {
@@ -35,13 +42,14 @@ nav a:hover {
 }
 
 #formulario {
-    width: 80%;
+    width: 50%;
     margin: auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Estilos para el formulario */
 
@@ -128,4 +136,26 @@ button:hover {
 #logo img {
     height: 50px;
     border-radius: 100%;
+}
+
+/*IMAGEN*/
+#imagen {
+    width: 50%; 
+    float: right; 
+    width: 35%; 
+    margin-left: 20px; 
+}
+
+#imagen img {
+    width: 100%; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px peru;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
 }
