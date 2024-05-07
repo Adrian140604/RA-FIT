@@ -1,0 +1,160 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('../IMAGENES/tienda.jpg');
+    background-size: cover;
+    background-position-x: center;
+    margin: 0%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#formulario {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario */
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+fieldset {
+    border: 3px solid peru;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgb(87, 87, 87);
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(97, 228, 124);
+}
+
+
+/*Botones*/
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 167, 111);
+}
+
+/*LOGO*/
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+/*IMAGEN*/
+#imagen {
+    width: 50%; 
+    float: right; 
+    width: 35%; 
+    margin-left: 20px; 
+}
+
+#imagen img {
+    width: 100%; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px peru;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+}
