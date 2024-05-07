@@ -1,0 +1,176 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 167, 111);
+}
+
+
+
+/* Estilos para la navegación */
+
+#buscar {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    padding: 20px;
+    text-align: center;
+   background-color: rgba(239, 64, 64, 0.495);
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de productos destacados */
+#destacados {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#destacados h2 {
+    color: #333;
+}
+
+#destacados .producto {
+    display: inline-block;
+    margin: 20px;
+}
+
+#destacados .producto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Boton busqueda*/
+/* Estilos para la barra de búsqueda */
+#form-busqueda {
+    margin-left: auto; /* Empuja la barra de búsqueda hacia la derecha */
+    display: flex;
+    align-items: center;
+}
+
+#busqueda {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#form-busqueda button {
+    padding: 8px 12px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-busqueda button:hover {
+    background-color: #0056b3;
+}
+
+/*Opiniones*/
+
+/* Estilos para la sección de opiniones de clientes */
+#opiniones {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#opiniones h2 {
+    color: #333;
+}
+
+.opinion {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Productos mas vendidos*/
+
+/* Estilos para la sección de productos más comprados */
+#productos-mas-comprados {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#productos-mas-comprados h2 {
+    color: #333;
+}
+
+.producto-comprado {
+    display: inline-block;
+    margin: 20px;
+}
+
+.producto-comprado img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+

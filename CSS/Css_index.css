@@ -134,3 +134,25 @@ button {
     margin-bottom: 10px; /* Separación entre los botones */
     margin-left: 10px;
 }
+
+/* Estilos del MasVendidos y OfertaFlash */
+#MasVendidos,
+#OfertaFlash {
+    text-align: center; /* Centra el contenido de las secciones */
+    display: flex; /* Utiliza flexbox para alinear elementos en línea */
+    flex-wrap: wrap; /* Envuelve los elementos en caso de que no quepan en una sola fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#MasVendidos p,
+#OfertaFlash p {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 20px; /* Añade un espacio entre el párrafo y las imágenes */
+}
+
+#MasVendidos img,
+#OfertaFlash img {
+    width: 200px; /* Define el ancho deseado para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    margin: 10px; /* Ajusta el espacio entre las imágenes */
+}
