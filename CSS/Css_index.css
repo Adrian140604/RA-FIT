@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+#apartados a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#apartados a:hover {
+    background-color: #555;
+}
+
+#registros button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+/* Estilos del descuento */
+#descuento {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#letraverano {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos del contenido principal */
+#carrusel,
+#MasVendidos,
+#OfertaFlash,
+#Testimonios {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+/*Estilos del carrusel*/
+
+.carousel {
+    position: relative;
+    max-width: 600px; /* Ajusta el tamaño máximo del carrusel según tus necesidades */
+    margin: auto;
+}
+
+.carousel-images {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+/* Estilos del MasVendidos y OfertaFlash */
+#MasVendidos,
+#OfertaFlash {
+    text-align: center; /* Centra el contenido de las secciones */
+    display: flex; /* Utiliza flexbox para alinear elementos en línea */
+    flex-wrap: wrap; /* Envuelve los elementos en caso de que no quepan en una sola fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#MasVendidos p,
+#OfertaFlash p {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 20px; /* Añade un espacio entre el párrafo y las imágenes */
+}
+
+#MasVendidos img,
+#OfertaFlash img {
+    width: 200px; /* Define el ancho deseado para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    margin: 10px; /* Ajusta el espacio entre las imágenes */
+}

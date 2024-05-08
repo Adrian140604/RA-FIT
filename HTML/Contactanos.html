@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/Contactanos.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Contáctanos</title>
+    
 </head>
 
 <body>
     <header id="cabecera">
-        <a href="">Inicio</a>
-        <a href="">Productos</a>
-        <a href="">Rutinas</a>
-        <a href="">Contáctanos</a>
-        <a href="">Atención al Cliente</a>
-        <button>Login</button>
-        <button>Regístrate</button>
+        <nav id="nav" class="navegador">
+            <div id="logo">
+            <img src="../IMAGENES/logo.png" alt="LOGO " id="logo">
+            </div>
+
+            <div id="apartados">
+                <a href="../HTML/Index.html">INICIO</a>
+                <a href="">PRODUCTOS</a>
+                <a href="">RUTINAS</a>
+                <a href="">CONOCENOS</a>
+                <a href="">ATENCIÓN AL CLIENTE</a>
+            </div>
+
+            <div id="registros">
+            <button type="button" id="login">INICIA SESIÓN</button>   
+            <button type="button" id="registro">REGISTRATE</button>       
+            </div>
+        </nav>
     </header>
 
     <nav>
@@ -25,7 +36,7 @@
 
             <h1>Contáctanos</h1>
 
-            <img src="../IMAGENES/logo.png" width="350px" height="400px" class="logo">
+            <img src="../IMAGENES/logo.png" width="350px" height="400px" class="logoclass">
             <div class="redes_sociales">
                 <div class="red1">
                     <span class="material-symbols-outlined" class="r1l">mail</span>
@@ -74,14 +85,15 @@
 
     </nav>
 
-    <footer> <a href="">Inicio</a>
-        <a href="">Productos</a>
-        <a href="">Rutinas</a>
-        <a href="">Contáctanos</a>
-        <a href="">Atención al Cliente</a>
-        <button>Login</button>
-        <button>Regístrate</button>
-    </footer>
+    <footer>
+        <nav id="nav" class="navegador">
+            <a href="">Contactanos</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="">Rss</a>
+            <a href="">Conocenos</a>
+            <a href="">Atencion al cliente</a>   
+        </nav>
+</footer>
 </body>
 
 </html>

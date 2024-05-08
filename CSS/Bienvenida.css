@@ -1,0 +1,121 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 167, 111);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url('../IMAGENES/logo.png');
+    background-position-x: center;
+    margin: 0%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+}
+/*LOGO*/
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+.bienvenida {
+    text-align: center; /* Centra el texto */
+    font-family: Arial, sans-serif; /* Fuente de texto profesional */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0; /* Aumenta el espacio superior e inferior */
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Tamaño grande */
+    color: #007bff; /* Color profesional */
+    margin-bottom: 20px; /* Espacio entre el título y el párrafo */
+    text-align: center;
+}
+
+p.bienvenida {
+    font-size: 18px; /* Tamaño de letra normal */
+    margin-bottom: 20px; /* Espacio entre el párrafo y el botón */
+}
+
+button#volver {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Centra el botón horizontalmente */
+    margin-top: 20px; /* Añade espacio encima del botón */
+}
+
+button#volver:hover {
+    background-color: rgb(223, 167, 111);
+}
+
