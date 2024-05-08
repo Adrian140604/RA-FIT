@@ -110,17 +110,17 @@ footer a:hover {
     position: relative;
     max-width: 600px; /* Ajusta el tamaño máximo del carrusel según tus necesidades */
     margin: auto;
+    overflow: hidden; /* Oculta las imágenes que se salgan del contenedor */
 }
 
 .carousel-images {
-    display: flex;
-    overflow-x: hidden;
+    display: flex; /* Utiliza Flexbox para alinear las imágenes horizontalmente */
+    transition: transform 0.8s ease; /* Animación para el desplazamiento */
 }
 
 .carousel-images img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease;
+    width: 100%; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
 }
 
 button {
@@ -137,7 +137,8 @@ button {
 
 /* Estilos del MasVendidos y OfertaFlash */
 #MasVendidos,
-#OfertaFlash {
+#OfertaFlash,
+#precio {
     text-align: center; /* Centra el contenido de las secciones */
     display: flex; /* Utiliza flexbox para alinear elementos en línea */
     flex-wrap: wrap; /* Envuelve los elementos en caso de que no quepan en una sola fila */
@@ -152,7 +153,26 @@ button {
 
 #MasVendidos img,
 #OfertaFlash img {
-    width: 200px; /* Define el ancho deseado para las imágenes */
-    height: auto; /* Mantiene la proporción */
+    width: 400px; /* Define el ancho deseado para las imágenes */
+    height: 400px; /* Mantiene la proporción */
     margin: 10px; /* Ajusta el espacio entre las imágenes */
+}
+#h1masvendidos{
+    margin-top: 200px;
+    text-align: center;
+    font-size:8ch;
+
+}
+#precio {
+    display: flex; /* Para colocar los elementos en la misma línea */
+    align-items: center; /* Para centrar verticalmente los elementos */
+    margin-left: 340PX;
+}
+
+#precio h2 {
+    margin-right: 340px; /* Ajusta la separación entre los precios */
+    margin-left: 10px; /* Mueve los precios hacia la izquierda */
+}
+#article{
+margin-bottom: 200px;
 }
