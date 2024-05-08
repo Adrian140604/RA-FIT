@@ -1,9 +1,65 @@
+/*Estilos de la fuente Importada*/
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
 /*General*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+}
+
 /*Encabezado*/
 header {
     background-color: #333;
@@ -68,20 +124,60 @@ h1 {
 .contenedor2{
     box-sizing: border-box;
     clear: both;
-    margin-bottom: 30%;
+    margin-bottom: 15%;
 }
 
 .contenedor3 {
     box-sizing: border-box;
     clear: both;
-    margin-bottom: 30%;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: space-between; /* Esto separa los iconos alineándolos a los extremos */
+    width: 100%;
 }
+
+/*Divs dentro del contenedor 3*/
+
+.icono1{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 100%;
+
+    margin-left: 15%;
+    margin-right: auto; /* Mueve el icono1 a la izquierda */
+}
+
+.icono2{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 100%;
+    
+    margin: 0 auto; /* Centra el icono2 */
+    
+}
+
+.icono3{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 100%;
+
+    margin-right: 15%;
+    margin-left: auto; /* Mueve el icono3 a la derecha */
+}
+
 
 /*Estilo del horario*/
 .horario, tr, td, th {
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
+    font-family: "Ubuntu", sans-serif;
 }
 
 table {
@@ -91,6 +187,7 @@ table {
 }
 
 
+
 /*Css para centrar la imagen*/
 .logoclass {
     margin: 0 auto;
@@ -98,6 +195,7 @@ table {
     float: left;
     align-items: center;
     margin-left: 25%;
+
 
 }
 
@@ -120,6 +218,8 @@ table {
     margin-right: 30%;
     margin-top: 5%;
     padding: 4px;
+    border: solid peru 2px;
+    box-shadow: 0 0 10px rgb(135, 88, 41); /* Agrega una sombra negra */
 }
 
 .red1 {
@@ -128,7 +228,8 @@ table {
     align-items: center;
 }
 
-.red2, .red3, .red4 {
+
+.red2, .red3, .red4, .red5 {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
@@ -145,6 +246,7 @@ table {
 
 /* Estilos del pie de página */
 footer {
+    clear: both;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -174,4 +276,8 @@ button {
     margin-right: 10px;
     margin-bottom: 10px; /* Separación entre los botones */
     margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 167, 111);
 }
