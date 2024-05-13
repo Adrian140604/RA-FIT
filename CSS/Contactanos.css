@@ -156,6 +156,9 @@ h1 {
 
 .icono1 img{
     width: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icono2{
@@ -174,6 +177,9 @@ h1 {
 .icono2 img{
     width: 0 auto;
     margin-left: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icono3{
@@ -192,6 +198,9 @@ h1 {
 .icono3 img{
     width: 0 auto;
     margin-left: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Estilo del horario*/
