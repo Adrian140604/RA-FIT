@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Registro.css">
+    <script src="../JS/Registro.js"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div id="logo">
+                <img src="../IMAGENES/logo.png" alt="LOGO" id="logo">
+            </div>
+            <a href="../HTML/Index.html">INICIO</a>
+            <a href="../HTML/Productos.html">PRODUCTOS</a>
+            <a href="">RUTINAS</a>
+            <a href="../HTML/Contactanos.html">CONOCENOS</a>
+            <a href="../HTML/atencioncliente.html">ATENCIÓN AL CLIENTE</a>
+            <button type="button">INICIA SESIÓN</button>   
+            <a href="../HTML/Registro.html"><button type="button">REGISTRATE</button></a>              
+        </nav>
+    </header>
+    <div class="contenido">
+        <article id="formulario">
+            <form method="post" action="../HTML/registro_correcto.html" target="_blank">
+                <fieldset>
+                    <legend id="legend">Datos Personales</legend>
+                    <label for="Nombre">Nombre:</label>
+                    <input name="Nombre" type="text" placeholder="Nombre...">
+                    <label for="Apellido">Apellido:</label>
+                    <input name="Apellido" type="text" placeholder="Apellido...">
+                    <label for="DNI">DNI:</label>
+                    <input name="DNI" type="text" maxlength="9" placeholder="DNI...">
+                    <label for="Nacimiento">Nacimiento:</label>
+                    <input name="Nacimiento" type="date">
+                    <label for="Email">Email:</label>
+                    <input name="Email" type="text" placeholder="email@example.com">
+                    <label for="Direccion">Dirección:</label>
+                    <input name="Direccion" type="text" placeholder="Calle...">
+                    <label for="genero">Género:</label>
+                    <select name="genero" id="genero">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                </fieldset>
+                <input type="submit" name="ENVIAR" value="ENVIAR">
+                <input name="RESTABLECER" type="reset" value="RESTABLECER"> 
+            </form>
+        </article>
+    </div>
+</body>
+</html>
