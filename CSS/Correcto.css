@@ -1,0 +1,41 @@
+body{
+    background-image: url('../IMAGENES/lentejas.jpg');
+    background-size: cover;
+    background-position-x: center;
+    margin: 0%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+#titulo2{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    color: peru;
+    text-shadow: 2px 2px 2px black; /* Agrega sombra */
+
+}
+#titulo1{
+    height: 20%;
+    background-color: aqua;
+}
+
+#inicio{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    margin-top: 10%;
+    
+}
+#inicio{
+    height: 20%;
+    background-color: aqua;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#pilotes{
+    margin-left: 27%;
+}

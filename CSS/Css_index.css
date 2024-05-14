@@ -9,15 +9,30 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px;
     text-align: center;
+    
 }
 
-#nav {
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
 
 #logo img {
     height: 50px;
@@ -89,21 +104,93 @@ footer a:hover {
     color: #ffcc00;
 }
 
+
+/*Ancla*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+
 /*Estilos del carrusel*/
 
 .carousel {
     position: relative;
     max-width: 600px; /* Ajusta el tamaño máximo del carrusel según tus necesidades */
     margin: auto;
+    overflow: hidden; /* Oculta las imágenes que se salgan del contenedor */
 }
 
 .carousel-images {
-    display: flex;
-    overflow-x: hidden;
+    display: flex; /* Utiliza Flexbox para alinear las imágenes horizontalmente */
+    transition: transform 0.8s ease; /* Animación para el desplazamiento */
 }
 
 .carousel-images img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease;
+    width: 100%; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+#MasVendidos,
+#OfertaFlash,
+#precio {
+    text-align: center; /* Centra el contenido de las secciones */
+    display: flex; /* Utiliza flexbox para alinear elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#MasVendidos p,
+#OfertaFlash p {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 20px; /* Añade un espacio entre el párrafo y las imágenes */
+}
+
+#MasVendidos img,
+#OfertaFlash img {
+    width: 60%; /* Define el ancho deseado para las imágenes */
+    height: auto; /* Mantiene la proporción */
+}
+#h1masvendidos{
+    margin-top: 20%; /* Ajusta el margen superior */
+    text-align: center;
+    font-size: 8ch;
+}
+#precio {
+    display: flex; /* Para colocar los elementos en la misma línea */
+    align-items: center; /* Para centrar verticalmente los elementos */
+    margin-left: 28%; /* Ajusta el margen izquierdo */
+}
+
+#precio h2 {
+    margin-right: 40%; /* Ajusta la separación entre los precios */
+    margin-left: 1.67%; /* Mueve los precios hacia la izquierda */
+}
+#article{
+    margin-bottom: 20%; /* Ajusta el margen inferior */
 }

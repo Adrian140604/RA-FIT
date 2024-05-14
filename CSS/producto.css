@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 167, 111);
+}
+
+
+
+/* Estilos para la navegación */
+
+#buscar {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    padding: 20px;
+    text-align: center;
+   background-color: rgba(239, 64, 64, 0.495);
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de productos destacados */
+#destacados {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#destacados h2 {
+    color: #333;
+}
+
+#destacados .producto {
+    display: inline-block;
+    margin: 20px;
+}
+
+#destacados .producto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Estilos para la sección de opiniones de clientes */
+#opiniones {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#opiniones h2 {
+    color: #333;
+}
+
+.opinion {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Productos mas vendidos*/
+
+/* Estilos para la sección de productos más comprados */
+#productos-mas-comprados {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#productos-mas-comprados h2 {
+    color: #333;
+}
+
+.producto-comprado {
+    display: inline-block;
+    margin: 20px;
+}
+
+.producto-comprado img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Animacion de las imagenes*/
+
+/* Estilos para la sección de productos */
+#productos {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(239, 64, 64, 0.495);
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para manejar el efecto */
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición para transformar la imagen */
+}
+
+.producto img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
+/* Estilos para la sección de productos destacados */
+#destacados {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#destacados .producto {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para manejar el efecto */
+}
+
+#destacados .producto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición para transformar la imagen */
+}
+
+#destacados .producto img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
+/* Estilos para la sección de productos más comprados */
+#productos-mas-comprados {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#productos-mas-comprados .producto-comprado {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para manejar el efecto */
+}
+
+#productos-mas-comprados .producto-comprado img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición para transformar la imagen */
+}
+
+#productos-mas-comprados .producto-comprado img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
+
+
+/*Ancla del footer*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
