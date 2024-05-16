@@ -91,6 +91,10 @@ header {
     background-color: #555;
 }
 
+#boton a:hover {
+    background-color: #55555500;
+}
+
 #login,#registro{
     float: right;
     height: 40px;
@@ -204,11 +208,17 @@ h1 {
 }
 
 /*Estilo del horario*/
-.horario, tr, td, th {
+ tr, td, th {
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
+}
+
+.horario {
+    border: 6px double peru;
+    border-collapse: collapse;
+    box-shadow: 0 0 25px rgb(135, 88, 41);
 }
 
 table {
@@ -246,7 +256,7 @@ table {
 .redes_sociales {
     box-sizing: border-box;
     float: right;
-    align-items: center;
+    align-items: flex-start;
     margin-right: 30%;
     margin-top: 5%;
     padding: 4px;
@@ -255,16 +265,11 @@ table {
     background-color: rgba(245, 245, 220, 0.804);
 }
 
-.red1 {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;
-}
 
 
-.red2, .red3, .red4, .red5 {
+.red1 , .red2, .red3, .red4, .red5 {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: left; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
 
@@ -275,6 +280,28 @@ table {
 
 .r1r {
     margin: 0 10px;
+}
+
+/*Hovers de las redes sociales*/
+
+.red1:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red2:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red3:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red4:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red5:hover{
+    color:rgb(135, 88, 41);
 }
 
 /* Estilos del pie de página */
