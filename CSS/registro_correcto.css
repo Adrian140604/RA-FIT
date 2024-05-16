@@ -1,4 +1,56 @@
 body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+background-image: url("../IMAGENES/IntentoFondo5.jpg");
+background-size: cover;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: rgb(230, 138, 46);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(232, 173, 114);
+}
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -34,4 +86,3 @@ body {
   button:hover {
     background-color: #0056b3;
   }
-  

@@ -129,3 +129,56 @@ nav a:hover {
     padding: 10px 20px;
 }
 
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Color azul llamativo */
+    font-size: 36px; /* Tamaño grande */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+/*Ancla del footer*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+
