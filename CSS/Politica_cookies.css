@@ -96,4 +96,13 @@ button:hover {
 nav {
     margin-left: 5%;
     text-align: justify;
+
+}
+
+#inicio, #uso {
+    padding: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%
+
 }

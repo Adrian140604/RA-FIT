@@ -129,6 +129,7 @@ nav a:hover {
     padding: 10px 20px;
 }
 
+
 h1 {
     text-align: center;
     color: #007bff; /* Color azul llamativo */
@@ -179,4 +180,5 @@ footer {
 .back-to-top:hover {
     background-color: #0056b3;
 }
+
 
