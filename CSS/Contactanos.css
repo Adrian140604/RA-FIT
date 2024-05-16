@@ -269,7 +269,7 @@ table {
 
 .red1 , .red2, .red3, .red4, .red5 {
     display: flex;
-    justify-content: left; /* Centra horizontalmente */
+    justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
 
