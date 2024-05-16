@@ -1,111 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/producto.css">
-
     <script src="../JS/Productos.js"></script>
     <title>Productos</title>
 </head>
-<body id="top">
 
-    <title>Productos</title>
-</head>
-<body>
+<body id="top">
 
     <header>
         <nav id="nav">
             <div id="logo">
-                <img src="../IMAGENES/logo.png" alt="LOGO " id="logo">
+                <img src="../IMAGENES/logo.png" alt="LOGO" id="logo">
             </div>
             <a href="../HTML/Index.html">INICIO</a>
             <a href="../HTML/Productos.html">PRODUCTOS</a>
-
             <a href="../HTML/Rutinas.html">RUTINAS</a>
-
             <a href="../HTML/Contactanos.html">CONOCENOS</a>
             <a href="../HTML/acliente.html">ATENCIÓN AL CLIENTE</a>
-            <button type="button1">INICIA SESIÓN</button>   
-            <a href="../HTML/Registro.html"><button type="button2">REGISTRATE</button></a>       
+            <button type="button1">INICIA SESIÓN</button>
+            <a href="../HTML/Registro.html"><button type="button2">REGISTRATE</button></a>
         </nav>
     </header>
-    <section id="productos">
 
+    <section id="productos">
         <h2>¡Nuestros productos en oferta!</h2>
         <div class="producto">
-            <img src="../IMAGENES/Eliptica 1.png" alt="Producto 1">
+            <a href="../HTML/ProductoEliptica.html"><img src="../IMAGENES/Eliptica 1.png" alt="Producto 1"></a>
             <p>Eliptica, Rafit con un 15% de descuento</p>
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
-
-        <h2>Nuestros productos en oferta</h2>
-        <div class="producto">
-            <img src="../IMAGENES/Eliptica 1.png" alt="Producto 1">
-            <p>Eliptica, Rafit con un 15% de descuento</p>
-
+            <p class="precio">Precio: 299.45$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/Balon medicinal Rafit.png" alt="Producto 2">
+            <a href="../HTML/ProductoBalon.html"><img src="../IMAGENES/Balon medicinal Rafit.png" alt="Producto 2"></a>
             <p>Balón medicinal 4kg Rafit, 30% de descuento</p>
-
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
-
+            <p class="precio">Precio: 35.55$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/Toalla 1.png" alt="Producto 3">
+            <a href="../HTML/ProductoToalla.html"><img src="../IMAGENES/Toalla 1.png" alt="Producto 3"></a>
             <p>Toalla Blanca Rafit, 20% de descuento</p>
-
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
-
+            <p class="precio">Precio: 19.95$</p>
         </div>
     </section>
 
     <section id="destacados">
         <h2>Productos Destacados</h2>
         <div class="producto">
-            <a href="../HTML/Index.html" target="_blank"><img src="../IMAGENES/Rafit bebida.png" alt="Producto Destacado 1"></a>
+            <a href="../HTML/ProductoBebida.html"><img src="../IMAGENES/Rafit bebida.png" alt="Producto Destacado 1"></a>
             <p>Bebida energética Rafit, el mejor aliado para los amantes de rendir siempre al máximo</p>
-
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
-
+            <p class="precio">Precio: 2.50$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/Mochila2.png" alt="Producto Destacado 2">
+            <a href="../HTML/ProductoMochila.html"><img src="../IMAGENES/Mochila2.png" alt="Producto Destacado 2"></a>
             <p>Mochila Rafit 4ever, para guardar tus motivaciones hasta llegar al gym</p>
-
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
-
+            <p class="precio">Precio: 20.00$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/Pesas Rafit.png" alt="Producto Destacado 3">
+            <a href="../HTML/ProductoPesas.html"><img src="../IMAGENES/Pesas Rafit.png" alt="Producto Destacado 3"></a>
             <p>Juego de pesas 15kg Rafit, para aquellos días en el entrenamiento habitual no es suficiente</p>
-
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
-
+            <p class="precio">Precio: 44.68$</p>
         </div>
     </section>
 
@@ -136,40 +91,29 @@
     <section id="productos-mas-comprados">
         <h2>¡Productos más comprados!</h2>
         <div class="producto-comprado">
-
-            <img src="../IMAGENES/esterilla Rafit.png" alt="Producto 1">
-            <p>Descripción del Producto 1 más comprado</p>
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
+            <a href="../HTML/ProductoEsterilla.html"><img src="../IMAGENES/esterilla Rafit.png" alt="Producto 1"></a>
+            <p>Esterilla Rafit</p>
+            <p class="precio">Precio: 15.00$</p>
         </div>
         <div class="producto-comprado">
-            <img src="../IMAGENES/Botellas Rafit.png" alt="Producto 2">
-            <p>Descripción del Producto 2 más comprado</p>
-            <div class="contador">
-                <button class="boton-contador" onclick="decrementarCantidad(this)">-</button>
-                <span class="cantidad">0</span>
-                <button class="boton-contador" onclick="incrementarCantidad(this)">+</button>
-            </div>
+            <a href="../HTML/ProductoBotella.html"><img src="../IMAGENES/Botellas Rafit.png" alt="Producto 2"></a>
+            <p>Pack: 3KG de protrina y Shaker.</p>
+            <p class="precio">Precio: 30.00$</p>
         </div>
-            
     </section>
+
     <footer>
         <nav id="nav">
-                <a href="../HTML/Contactanos.html">Contactanos</a>
-                <a href="">Sobre Nosotros</a>
-                <a href="">Rss</a>
-                <a href="">Conocenos</a>
-                <a href="../HTML/atencioncliente.html">Atención al cliente</a> 
-                <a href="../HTML/Politica_cookies.html">Política de cookies</a>  
-                <a href="#top" class="back-to-top">Volver Arriba</a>
+            <a href="../HTML/Contactanos.html">Contactanos</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="">Rss</a>
+            <a href="">Conocenos</a>
+            <a href="../HTML/atencioncliente.html">Atención al cliente</a>
+            <a href="../HTML/Politica_cookies.html">Política de cookies</a>
+            <a href="#top" class="back-to-top">Volver Arriba</a>
         </nav>
     </footer>
 
-            
-    </section>
-    
 </body>
+
 </html>

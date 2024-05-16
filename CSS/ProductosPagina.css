@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../IMAGENES/IntentoFondo5.jpg');
+    background-size: cover;
+}
+
+.product-container {
+    background-color: rgba(235, 233, 233, 0.769);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.product-title {
+    margin: 20px 0 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.product-description {
+    color: #805959;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.counter-button {
+    background-color: peru;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.counter-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.counter {
+    margin: 0 15px;
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+}
+
+.total-price {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos para los botones del contador */
+.counter-button {
+    padding: 10px 20px;
+    background-color: peru; 
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; 
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+#decrement:hover {
+    background-color: rgb(235, 179, 122); 
+}
+
+#increment:hover {
+    background-color: rgb(235, 179, 122); 
+}
+
