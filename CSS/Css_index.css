@@ -184,7 +184,7 @@ button {
     height: auto; /* Mantiene la proporción */
 }
 #h1masvendidos{
-    margin-top: 20%; /* Ajusta el margen superior */
+    margin-top: 5%; /* Ajusta el margen superior */
     text-align: center;
     font-size: 8ch;
 }
@@ -200,4 +200,55 @@ button {
 }
 #article{
     margin-bottom: 20%; /* Ajusta el margen inferior */
+}
+
+/* Estilos para las imágenes de las redes sociales */
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+
+/* Estilos para el artículo de opiniones */
+.opiniones {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.opiniones h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonio {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonio h2 {
+    font-size: 1.5rem; /* Ajusta el tamaño del nombre del cliente */
+    margin-bottom: 10px;
+}
+
+.testimonio p {
+    font-size: 1.1rem; /* Ajusta el tamaño de la opinión */
+    color: #666;
+    line-height: 1.6;
 }

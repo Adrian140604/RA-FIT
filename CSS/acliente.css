@@ -158,7 +158,19 @@ footer a:hover {
 } 
 
 
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 
+.back-to-top:hover {
+    background-color: #0056b3;
+}
 
 h2 {
     margin-bottom: 20px;
@@ -228,4 +240,19 @@ h2 {
     font-size: 16px;
     color: #666;
 }
+.news{
+    padding-bottom: 2%;
+}
 
+
+/* Estilos para las imágenes de las redes sociales */
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
