@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/IniciaSesion.css">
-
-    <script src="../JS/Registro.js"></script>
-
     <title>Inicia Sesion</title>
 </head>
 <body>
@@ -28,32 +25,21 @@
     </header>
     <div class="contenido">
         <article id="formulario">
-
             <form method="post" action="../HTML/registro_correcto.html" target="_blank">
                 <fieldset>
-                    
                     <legend id="legend">Inicia Sesion</legend>
                     <div id="correo">
-                    <label for="Email">Correo electronico:</label>
-                    <input name="Email" type="text" placeholder="email@example.com">
+                        <label for="Email">Correo electronico:</label>
+                        <input name="Email" type="text" placeholder="email@example.com">
                     </div>
                     <label for="DNI">DNI:</label>
                     <input name="DNI" type="text" maxlength="9" placeholder="DNI...">
-              
                 </fieldset>
                 <input type="submit" name="ENVIAR" value="ENVIAR">
                 <input name="RESTABLECER" type="reset" value="RESTABLECER"> 
             </form>
         </article>
     </div>
-</body>
-</html>
-
-
-       
-           
-        </article>
-    </div>
-    
+    <script src="../JS/ValidaFormularioIniciaSesion.js"></script>
 </body>
 </html>
