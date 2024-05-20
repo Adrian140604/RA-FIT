@@ -191,7 +191,7 @@ button {
 #precio {
     display: flex; /* Para colocar los elementos en la misma línea */
     align-items: center; /* Para centrar verticalmente los elementos */
-    margin-left: 28%; /* Ajusta el margen izquierdo */
+    margin-left: 28%; /* Ajusta el   margen izquierdo */
 }
 
 #precio h2 {
