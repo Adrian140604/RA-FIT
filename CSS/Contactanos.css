@@ -208,25 +208,38 @@ h1 {
 }
 
 /*Estilo del horario*/
- tr, td, th {
+/* General styles for table elements */
+tr, td, th {
     border: 2px solid black;
-    border-collapse: collapse;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
+    padding: 10px;  /* Adds padding inside table cells */
 }
 
+/* Styles for the .horario class */
 .horario {
     border: 6px double peru;
-    border-collapse: collapse;
-    box-shadow: 0 0 25px rgb(135, 88, 41);
+    box-shadow: 0 0 25px rgba(135, 88, 41, 0.8);
+    border-radius: 10px;  /* Rounds the corners of the border */
+    overflow: hidden;  /* Ensures rounded corners are visible */
 }
 
+/* General styles for the table */
 table {
     width: 1000px;
     height: 400px;
     margin: 0 auto;
-    background-color: rgba(245, 245, 220, 0.804);
+    background-color: rgba(245, 245, 220, 0.9);  /* Slightly more opaque background */
+    border-collapse: collapse;
+    border-spacing: 0;  /* Ensures no space between cells */
 }
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: rgba(255, 239, 213, 0.8);  /* Changes background color on hover */
+    transition: background-color 0.3s;  /* Smooth transition for hover effect */
+}
+
 
 
 
