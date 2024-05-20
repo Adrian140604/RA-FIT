@@ -11,8 +11,10 @@
 
 <body>
     <div class="product-container">
+        <div class="separador">
+        <h1 class="product-title">Pack Proteinas y Shaker</h1>
         <img src="../IMAGENES/Botellas Rafit.png" alt="Esterilla Rafit" class="product-image">
-        <h1 class="product-title">Pack Proteinas y Shaker.</h1>
+        
         <p class="product-description">Prepara tus entrenamientos con estilo y eficiencia con el pack de proteína y
             shaker Rafit. Este conjunto incluye todo lo que necesitas para mezclar y disfrutar de tus suplementos de
             proteína favoritos en cualquier momento y lugar.
@@ -20,14 +22,13 @@
 
         <p class="unit-price">PRECIO UNIDAD: 30.00$</p>
 
-        <div class="counter-container">
-            <button id="decrement" class="counter-button">-</button>
-            <span id="counter" class="counter">0</span>
-            <button id="increment" class="counter-button">+</button>
-        </div>
-
-        <p class="total-price">PRECIO TOTAL: $<span id="total">0.00</span></p>
+        <form method="post" action="../HTML/añadido_correcto.html" target="_blank">
+            <button type="submit" class="boton_carrito">
+                <img class="carrito"src="../IMAGENES/shopping-cart_icon-icons.com_69303.png" alt="Añadir al carrito">
+            </button>
+            </form>
     </div>
+</div>
     <script src="../JS/ProductoBotella.js"></script>
 </body>
 

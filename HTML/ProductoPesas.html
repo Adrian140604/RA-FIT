@@ -11,22 +11,23 @@
 
 <body>
     <div class="product-container">
-        <img src="../IMAGENES/Pesas Rafit.png" alt="Mochila Rafit" class="product-image">
+        <div class="separador">
         <h1 class="product-title">Mochila Rafit</h1>
+        <img src="../IMAGENES/Pesas Rafit.png" alt="Mochila Rafit" class="product-image">
+       
         <p class="product-description">Mejora tu rutina de entrenamiento con el juego de pesas Rafit de 15kg. Estas
             pesas están diseñadas para ofrecer un rendimiento excepcional y resultados visibles en tu desarrollo físico.
         </p>
 
         <p class="unit-price">PRECIO UNIDAD: 44.68$</p>
 
-        <div class="counter-container">
-            <button id="decrement" class="counter-button">-</button>
-            <span id="counter" class="counter">0</span>
-            <button id="increment" class="counter-button">+</button>
-        </div>
-
-        <p class="total-price">PRECIO TOTAL: $<span id="total">0.00</span></p>
+        <form method="post" action="../HTML/añadido_correcto.html" target="_blank">
+            <button type="submit" class="boton_carrito">
+                <img class="carrito"src="../IMAGENES/shopping-cart_icon-icons.com_69303.png" alt="Añadir al carrito">
+            </button>
+            </form>
     </div>
+</div>
     <script src="../JS/ProductoPesas.js"></script>
 </body>
 

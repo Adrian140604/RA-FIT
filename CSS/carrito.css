@@ -1,0 +1,20 @@
+/* Estilos para el carrito de compras */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+div {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}

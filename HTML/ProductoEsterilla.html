@@ -11,8 +11,10 @@
 
 <body>
     <div class="product-container">
-        <img src="../IMAGENES/esterilla Rafit.png" alt="Esterilla Rafit" class="product-image">
+        <div class="separador">
         <h1 class="product-title">Esterilla Rafit</h1>
+        <img src="../IMAGENES/esterilla Rafit.png" alt="Esterilla Rafit" class="product-image">
+        
         <p class="product-description">La esterilla Rafit es tu compañera perfecta para cualquier tipo de ejercicio,
             desde yoga hasta entrenamiento de fuerza. Ofreciendo comodidad y estabilidad, esta esterilla es esencial
             para mejorar tu experiencia de entrenamiento.
@@ -20,14 +22,13 @@
 
         <p class="unit-price">PRECIO UNIDAD: 15.00$</p>
 
-        <div class="counter-container">
-            <button id="decrement" class="counter-button">-</button>
-            <span id="counter" class="counter">0</span>
-            <button id="increment" class="counter-button">+</button>
-        </div>
-
-        <p class="total-price">PRECIO TOTAL: $<span id="total">0.00</span></p>
+        <form method="post" action="../HTML/añadido_correcto.html" target="_blank">
+            <button type="submit" class="boton_carrito">
+                <img class="carrito"src="../IMAGENES/shopping-cart_icon-icons.com_69303.png" alt="Añadir al carrito">
+            </button>
+            </form>
     </div>
+</div>
     <script src="../JS/ProductoEsterilla.js"></script>
 </body>
 

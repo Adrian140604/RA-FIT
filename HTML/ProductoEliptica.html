@@ -11,22 +11,23 @@
 
 <body>
     <div class="product-container">
-        <img src="../IMAGENES/Eliptica 1.png" alt="Bicicleta Eliptica" class="product-image">
+        <div class="separador">
         <h1 class="product-title">Bicicleta Elíptica Rafit Pro 3000</h1>
+        <img src="../IMAGENES/Eliptica 1.png" alt="Bicicleta Eliptica" class="product-image">
+        
         <p class="product-description">Transforma tu rutina de ejercicio con la Bicicleta Elíptica Rafit Pro 3000.
             Diseñada para ofrecer un entrenamiento completo y efectivo, esta elíptica combina tecnología avanzada con
             comodidad superior.</p>
 
         <p class="unit-price">PRECIO UNIDAD: 299.95 $</p>
 
-        <div class="counter-container">
-            <button id="decrement" class="counter-button">-</button>
-            <span id="counter" class="counter">0</span>
-            <button id="increment" class="counter-button">+</button>
-        </div>
-
-        <p class="total-price">PRECIO TOTAL: $<span id="total">0.00</span></p>
+        <form method="post" action="../HTML/añadido_correcto.html" target="_blank">
+            <button type="submit" class="boton_carrito">
+                <img class="carrito"src="../IMAGENES/shopping-cart_icon-icons.com_69303.png" alt="Añadir al carrito">
+            </button>
+            </form>
     </div>
+</div>
     <script src="../JS/ProductoEliptica.js"></script>
 </body>
 
