@@ -130,9 +130,11 @@ footer {
 
 /*Estilos del carrusel*/
 
+/* Estilos del carrusel */
 .carousel {
     position: relative;
-    max-width: 600px; /* Ajusta el tamaño máximo del carrusel según tus necesidades */
+    max-width: 100%; /* Ajusta el tamaño máximo del carrusel para ocupar el ancho completo */
+    min-height: 300px; /* Establece una altura mínima para asegurar que el carrusel no sea demasiado pequeño */
     margin: auto;
     overflow: hidden; /* Oculta las imágenes que se salgan del contenedor */
 }
@@ -140,12 +142,15 @@ footer {
 .carousel-images {
     display: flex; /* Utiliza Flexbox para alinear las imágenes horizontalmente */
     transition: transform 0.8s ease; /* Animación para el desplazamiento */
+    width: 100%; /* Asegura que las imágenes ocupen el ancho completo */
 }
 
 .carousel-images img {
     width: 100%; /* Ajusta el ancho de las imágenes */
     height: auto; /* Mantiene la proporción de aspecto */
+    flex-shrink: 0; /* Evita que las imágenes se encojan */
 }
+
 
 button {
     padding: 10px 20px;
