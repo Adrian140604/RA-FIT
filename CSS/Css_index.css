@@ -131,12 +131,15 @@ footer {
 /*Estilos del carrusel*/
 
 /* Estilos del carrusel */
+
 .carousel {
     position: relative;
-    max-width: 100%; /* Ajusta el tamaño máximo del carrusel para ocupar el ancho completo */
-    min-height: 300px; /* Establece una altura mínima para asegurar que el carrusel no sea demasiado pequeño */
+    width: 550px; /* Incrementa el ancho del carrusel */
+    height: 500px; /* Incrementa la altura del carrusel para que sea cuadrado */
     margin: auto;
     overflow: hidden; /* Oculta las imágenes que se salgan del contenedor */
+    border: 2px solid #ccc; /* Añade un borde para resaltar el carrusel */
+    border-radius: 10px; /* Bordes redondeados para el carrusel */
 }
 
 .carousel-images {
@@ -146,10 +149,15 @@ footer {
 }
 
 .carousel-images img {
-    width: 100%; /* Ajusta el ancho de las imágenes */
-    height: auto; /* Mantiene la proporción de aspecto */
+    width: 25%; /* Ajusta el ancho de las imágenes */
+    height: 25%; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área del contenedor */
     flex-shrink: 0; /* Evita que las imágenes se encojan */
 }
+
+
+
+
 
 
 button {
