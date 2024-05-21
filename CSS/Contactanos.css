@@ -126,7 +126,8 @@ h1 {
 .contenedor1 {
     width: 0 auto;
     margin-top: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 42%;
+
 }
 
 .contenedor2{
@@ -243,7 +244,8 @@ tr:hover {
     box-sizing: border-box;
     float: left;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 20%;
+
     border: double 10px peru;
 
 }
@@ -264,7 +266,7 @@ tr:hover {
     box-sizing: border-box;
     float: right;
     align-items: flex-start;
-    margin-right: 30%;
+    margin-right: 17%;
     margin-top: 5%;
     padding: 4px;
     border: solid peru 2px;
@@ -313,7 +315,6 @@ tr:hover {
 
 /* Estilos del pie de página */
 footer {
-    clear: both;
     background-color: #333;
     color: #fff;
     text-align: center;
