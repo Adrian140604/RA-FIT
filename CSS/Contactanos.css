@@ -120,6 +120,7 @@ header {
 
 h1 {
     text-align: center;
+    font-size: 300%;
 }
 
 .contenedor1 {
@@ -134,14 +135,7 @@ h1 {
     margin-bottom: 15%;
 }
 
-.contenedor3 {
-    box-sizing: border-box;
-    clear: both;
-    margin-bottom: 15%;
-    display: flex;
-    justify-content: space-between; /* Esto separa los iconos alineándolos a los extremos */
-    width: 100%;
-}
+
 
 /*Divs dentro del contenedor 3*/
 
