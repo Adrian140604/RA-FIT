@@ -72,14 +72,14 @@ header {
     
 }
 
-.navegador {
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.navegador a {
+nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
@@ -87,7 +87,7 @@ header {
     border-radius: 20px;
 }
 
-#nav a:hover {
+nav a:hover {
     background-color: #555;
 }
 
