@@ -350,8 +350,30 @@ button {
     margin-bottom: 10px; /* Separación entre los botones */
     margin-left: 10px;
 }
+
+
+button:hover {
+    background-color: rgb(223, 167, 111);
+}
+/* Estilos para las imágenes de las redes sociales */
+
+#flotador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resto {
+    margin-right: auto;
+}
+
+#redesSociales{
+    margin: 0 auto;
+}
+
 .back-to-top {
     display: inline-block;
+    margin-left: auto;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -360,14 +382,6 @@ button {
     transition: background-color 0.3s;
 }
 
-.back-to-top:hover {
-    background-color: #0056b3;
-}
-
-button:hover {
-    background-color: rgb(223, 167, 111);
-}
-/* Estilos para las imágenes de las redes sociales */
 #redesSociales img {
     width: 50px; /* Ajusta el ancho de las imágenes */
     height: auto; /* Mantiene la proporción de aspecto */
@@ -377,4 +391,10 @@ button:hover {
     width: 10px; /* Ajusta el ancho de las imágenes */
     height: auto; /* Mantiene la proporción de aspecto */
     margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+
+
+
+.back-to-top:hover {
+    background-color: #0056b3;
 }

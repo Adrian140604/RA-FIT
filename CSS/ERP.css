@@ -1,13 +1,23 @@
-/*Estilo del body*/
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    margin: 0%;
-    padding: 0%;
-    background-size: cover;
-    background-position-x: center;
+    margin: 0;
+    padding: 0;
 }
 
-/*Estilo del header*/
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+/* Estilos del encabezado */
 header {
     background-color: #333;
     color: #fff;
@@ -64,10 +74,8 @@ nav a:hover {
     cursor: pointer;
 }
 
-/*Estilo pie de página*/
-
+/* Estilos del pie de página */
 footer {
-    clear: both;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -85,37 +93,10 @@ footer a:hover {
     color: #ffcc00;
 }
 
-/*Estilos de los botones*/
-
-button {
-    padding: 10px 20px;
-    background-color: peru;
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Bordes más redondeados */
-    cursor: pointer;
-    margin-right: 10px;
-    margin-bottom: 10px; /* Separación entre los botones */
-    margin-left: 10px;
-}
-
-button:hover {
-    background-color: rgb(223, 167, 111);
-}
-
-/*Posicionamiento de elementos*/
-nav {
-    margin-left: 5%;
-    text-align: justify;
-
-}
-
-#inicio, #uso {
-    padding: 2%;
-    margin-right: 4%;
-    margin-bottom: auto;
-    margin-top: auto;
-
+/*Ancla*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
 }
 
 /* Estilos para las imágenes de las redes sociales */
