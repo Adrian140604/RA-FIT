@@ -128,30 +128,6 @@ main {
     background-color: rgb(236,165,94);
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-
-
-
-footer a:hover {
-    color: #ffcc00;
-}
 
 #reembolso{
     display: inline;
@@ -240,9 +216,7 @@ h2 {
     font-size: 16px;
     color: #666;
 }
-.news{
-    padding-bottom: 2%;
-}
+
 
 
 /* Estilos para las imágenes de las redes sociales */
@@ -255,4 +229,31 @@ h2 {
     width: 10px; /* Ajusta el ancho de las imágenes */
     height: auto; /* Mantiene la proporción de aspecto */
     margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+
+
+/*Ancla*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
 }
