@@ -1,34 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de Compras</title>
     <link rel="stylesheet" href="../CSS/carrito.css">
+    <script src="../JS/carrito.js"></script>
+    <title>Carrito de Compras</title>
 </head>
-
 <body>
     <header>
-        <h1>Carrito de Compras</h1>
-        <div class="cart-icon">
-            <span class="cart-count">0</span>
-            🛒
-        </div>
+        <nav id="nav">
+            <div id="logo">
+                <img src="../IMAGENES/logo.png" alt="LOGO " id="logo">
+            </div>
+            <a href="../Index.html">INICIO</a>
+            <a href="../HTML/Productos.html">PRODUCTOS</a>
+            <a href="../HTML/Rutinas.html">RUTINAS</a>
+            <a href="../HTML/Contactanos.html">CONÓCENOS</a>
+            <a href="../HTML/acliente.html">ATENCIÓN AL CLIENTE</a>
+
+            <a href="../HTML/IniciaSesion.html"> <button type="button1">INICIA SESIÓN</button></a>
+            <a href="../HTML/Registro.html"><button type="button2">REGISTRATE</button></a>
+    
+        </nav>
     </header>
     <main>
-        <section class="cart">
-            <h2>Tu Carrito</h2>
-            <ul class="cart-items">
-                <!-- Items del carrito se insertarán aquí dinámicamente -->
-            </ul>
-            <div class="total">
-                Total: <span class="total-amount">0.00</span>€
+        <h1>Carrito de Compras</h1>
+        <div id="cart">
+            <div class="cart-item">
+                <img src="../IMAGENES/Botellas Rafit.png" alt="Producto 1">
+                <div class="item-details">
+                    <h2>Botellas de RAF-FIT</h2>
+                    <p>10.00€</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
             </div>
-        </section>
+            <div class="cart-item">
+                <img src="../IMAGENES/Guantes Rafit.png" alt="Producto 2">
+                <div class="item-details">
+                    <h2>Guantes RAF-FIT</h2>
+                    <p>15.00€</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="../IMAGENES/lentejas.jpg" alt="Producto 3">
+                <div class="item-details">
+                    <h2>LENTEJITAS PROTEICAS</h2>
+                    <p>20.00€</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="number" value="0" min="0">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="total">
+            <h2>Total: €<span id="total-amount">45.00 </span></h2>
+            <a href="../HTML/registro_correcto.html"><button id="checkout">Realizar Pago</button></a>
+        </div>
     </main>
-    
-    <script src="../JS/carrito.js"></script>
+    <script src="carrito.js"></script>
 </body>
-
 </html>

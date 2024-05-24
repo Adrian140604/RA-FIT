@@ -4,6 +4,20 @@ body {
     padding: 0;
 }
 
+#logocarro {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    background: peru; /* Fondo semi-transparente */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#logocarro {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
 
 header {
     background-color: #333;

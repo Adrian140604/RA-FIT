@@ -5,16 +5,50 @@ body {
     padding: 0;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: peru;
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Bordes más redondeados */
-    cursor: pointer;
-    margin-right: 10px;
-    margin-bottom: 10px; /* Separación entre los botones */
-    margin-left: 10px;
+/* Estilos del contenido principal */
+#explicacionErp {
+    max-width: 800px; /* Limita el ancho del contenido principal */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos de los títulos */
+h1 {
+    text-align: center; /* Centra los títulos */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre títulos y párrafos */
+}
+
+/* Estilos de los párrafos */
+p {
+    text-align: justify; /* Justifica el texto */
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Espacio inferior entre párrafos */
+}
+
+/* Estilos de las listas */
+ol, ul {
+    color: #666; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre lista y párrafos */
+}
+
+/* Estilos de los elementos de la lista */
+li {
+    margin-bottom: 5px; /* Espacio inferior entre elementos de la lista */
+}
+
+/* Estilos de los enlaces */
+a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
 }
 
 /* Estilos del encabezado */
@@ -23,7 +57,6 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
-    
 }
 
 nav {
@@ -45,33 +78,9 @@ nav a:hover {
     background-color: #555;
 }
 
-
 #logo img {
     height: 50px;
     border-radius: 100%;
-}
-
-#apartados a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-#apartados a:hover {
-    background-color: #555;
-}
-
-#registros button {
-    background-color: #fff;
-    color: #333;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
 }
 
 /* Estilos del pie de página */
@@ -105,12 +114,14 @@ footer {
     height: auto; /* Mantiene la proporción de aspecto */
     margin: 0 5px; /* Ajusta el margen entre las imágenes */
 }
-.social-icon{
-    width: 10px; /* Ajusta el ancho de las imágenes */
+
+.social-icon {
+    width: 50px; /* Ancho de los iconos sociales */
     height: auto; /* Mantiene la proporción de aspecto */
-    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+    margin: 0 5px; /* Margen entre los iconos sociales */
 }
 
+/* Botón de volver arriba */
 .back-to-top {
     display: inline-block;
     padding: 10px 20px;

@@ -1,50 +1,51 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const incrementButton = document.getElementById("increment");
-    const decrementButton = document.getElementById("decrement");
-    const counterElement = document.getElementById("counter");
-    const totalElement = document.getElementById("total");
+document.addEventListener('DOMContentLoaded', function () {
+    const cartItems = document.querySelectorAll('.cart-item');
+    const totalAmountElement = document.getElementById('total-amount');
+    const checkoutButton = document.getElementById('checkout');
 
-    let count = 0;
-    const pricePerItem = 35.55; // Precio del producto
+    cartItems.forEach(item => {
+        const decreaseButton = item.querySelector('.decrease');
+        const increaseButton = item.querySelector('.increase');
+        const quantityInput = item.querySelector('input[type="number"]');
+        const priceElement = item.querySelector('.item-details p');
+        const price = parseFloat(priceElement.textContent.replace('€', ''));
 
-    function updateTotal() {
-        totalElement.textContent = (count * pricePerItem).toFixed(2);
-    }
-
-    incrementButton.addEventListener("click", () => {
-        count++;
-        counterElement.textContent = count;
-        updateTotal();
+        decreaseButton.addEventListener('click', () => updateQuantity(quantityInput, price, -1));
+        increaseButton.addEventListener('click', () => updateQuantity(quantityInput, price, 1));
+        quantityInput.addEventListener('change', updateTotal);
     });
 
-    decrementButton.addEventListener("click", () => {
-        if (count > 0) {
-            count--;
-            counterElement.textContent = count;
-            updateTotal();
+    checkoutButton.addEventListener('click', () => {
+        const totalAmount = parseFloat(totalAmountElement.textContent);
+        if (totalAmount > 0) {
+            // Realizar alguna acción, como redirigir a otra página
+            console.log('Pago realizado con éxito');
+        } else {
+            console.log('El carrito está vacío. No se puede realizar el pago.');
         }
     });
 
-    // Función para agregar al carrito
-    function addToCart(id, name, price) {
-        // Crear un objeto de producto
-        const product = {
-            id: id,
-            name: name,
-            price: price,
-            quantity: count
-        };
-
-        // Obtener el carrito actual del almacenamiento local
-        let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-        // Agregar el producto al carrito
-        cart.push(product);
-
-        // Guardar el carrito actualizado en el almacenamiento local
-        localStorage.setItem('cart', JSON.stringify(cart));
-
-        // Redirigir a la página de confirmación de añadido al carrito
-        window.location.href = '../HTML/añadido_correcto.html';
+    function updateQuantity(input, price, change) {
+        let currentValue = parseInt(input.value);
+        if (isNaN(currentValue)) currentValue = 0;
+        const newValue = currentValue + change;
+        if (newValue >= 0) {
+            input.value = newValue;
+            updateTotal();
+        }
     }
+
+    function updateTotal() {
+        let total = 0;
+        cartItems.forEach(item => {
+            const quantityInput = item.querySelector('input[type="number"]');
+            const priceElement = item.querySelector('.item-details p');
+            const price = parseFloat(priceElement.textContent.replace('€', ''));
+            const quantity = parseInt(quantityInput.value);
+            total += price * quantity;
+        });
+        totalAmountElement.textContent = total.toFixed(2) + ' €';
+    }
+
+    updateTotal(); // Initialize the total on page load
 });
