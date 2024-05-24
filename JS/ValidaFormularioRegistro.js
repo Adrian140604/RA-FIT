@@ -1,63 +1,75 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const form = document.querySelector('#registro-form');
-    
-    form.addEventListener('submit', function (event) {
-        if (!validateForm()) {
-            event.preventDefault(); // Evita que el formulario se envíe si hay errores
-        }
-    });
-});
+//Nueva validación usando un div oculto
 
-function validateForm() {
-    // Clear previous error messages
-    document.querySelectorAll('.error-message').forEach(function(el) {
-        el.textContent = '';
-    });
+function validaFormulario() {
+    let valido = true;
+    //Acceder a los datos a validar
+    const nombre = document.getElementById("Nombre").value;
+    const apellido = document.getElementById("Apellido").value;
+    const dni = document.getElementById("DNI").value;
+    const nacimiento = document.getElementById("Nacimiento").value;
+    const mail = document.getElementById("Email").value;
+    const direccion = document.getElementById("Direccion").value;
+    const genero = document.getElementById("genero").value;
 
-    const nombre = document.querySelector('#Nombre').value.trim();
-    const apellido = document.querySelector('#Apellido').value.trim();
-    const dni = document.querySelector('#DNI').value.trim();
-    const nacimiento = document.querySelector('#Nacimiento').value;
-    const email = document.querySelector('#Email').value.trim();
-    const direccion = document.querySelector('#Direccion').value.trim();
-    const genero = document.querySelector('#genero').value;
+    /* Declaro constantes para cada valor del formulario que quiero extraer */
 
-    let valid = true;
+    let errores = []; //De principio está vacío porque no hay errores
+
+    //Empezamos a validar
 
     if (nombre === "") {
-        document.querySelector('#error-nombre').textContent = "El nombre es obligatorio.";
-        valid = false;
+        errores.push("Por favor, introduzca un nombre");
     }
 
     if (apellido === "") {
-        document.querySelector('#error-apellido').textContent = "El apellido es obligatorio.";
-        valid = false;
+        errores.push("Por favor, introduzca un apellido");
     }
 
-    if (dni === "" || !/^\d{8}[A-Za-z]$/.test(dni)) {
-        document.querySelector('#error-dni').textContent = "El DNI debe tener 8 dígitos seguidos de una letra.";
-        valid = false;
+    let expresionDNI = /^[0-9]{8}[A-Z]$/
+
+    if (!expresionDNI.test(dni)) {
+        errores.push("Por favor, ingrese un DNI válido");
     }
 
     if (nacimiento === "") {
-        document.querySelector('#error-nacimiento').textContent = "La fecha de nacimiento es obligatoria.";
-        valid = false;
+        errores.push("Por favor, seleccione una fecha de nacimiento");
     }
+    
 
-    if (email === "" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        document.querySelector('#error-email').textContent = "Por favor, introduce un email válido.";
-        valid = false;
+    if (mail === "" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) {
+
+        errores.push("Por favor, introduzca un email válido")
+
     }
 
     if (direccion === "") {
-        document.querySelector('#error-direccion').textContent = "La dirección es obligatoria.";
-        valid = false;
+        errores.push("Por favor, introduzca una dirección");
     }
 
-    if (genero === "") {
-        document.querySelector('#error-genero').textContent = "Por favor, selecciona un género.";
-        valid = false;
+    if (errores.length != 0) {
+        valido = false;
     }
 
-    return valid;
+    mostrarErrores(errores)
+    return valido;
+}
+
+function mostrarErrores(errores) {
+    let divErrores = document.getElementById("errores");
+    divErrores.innerHTML = ""; // Modifica el HTML de dentro
+    divErrores.style.display = "block"; // Mostrar div de errores
+
+    if (errores.length === 0) {
+        divErrores.style.display = "none"; // Ocultar div de errores si no hay errores
+    } else {
+        let ul = document.createElement("ul");
+
+        errores.forEach(function(error) {
+            let li = document.createElement("li");
+            li.textContent = error;
+            ul.appendChild(li);
+        });
+
+        divErrores.appendChild(ul);
+    }
 }
