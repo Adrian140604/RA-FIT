@@ -1,0 +1,259 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Separación entre los botones */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(223, 167, 111);
+}
+
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formulario {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+.opciones {
+    margin-bottom: 20px;
+}
+
+.opciones > label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: inline;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input[type="text"],
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botones {
+    text-align: center;
+}
+
+.botones button {
+    background-color: rgb(251,147,43);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    background-color: rgb(236,165,94);
+}
+
+
+#reembolso{
+    display: inline;
+} 
+
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq, .testimonios, .news {
+    margin-bottom: 40px;
+}
+
+.faq .pregunta, .testimonios .testimonio, .news .noticia {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.faq .pregunta , .news .noticia {
+    margin-bottom: 10px;
+    
+}
+
+.testimonios .testimonio p {
+    margin-bottom: 10px;
+}
+
+.testimonios .testimonio strong {
+    display: block;
+    margin-top: 10px;
+    
+}
+
+.news .noticia {
+    margin-bottom: 10px;
+    
+}
+
+#preguntafrecuente{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#preguntacliente{
+   
+   
+    color: peru;
+}
+
+#bienvenida{
+    text-align: center;
+}
+
+.welcome-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.welcome-message p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+/* Estilos para las imágenes de las redes sociales */
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+
+
+/*Ancla*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}

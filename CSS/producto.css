@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 
 header {
     background-color: #333;
@@ -98,36 +104,7 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*Boton busqueda*/
-/* Estilos para la barra de búsqueda */
-#form-busqueda {
-    margin-left: auto; /* Empuja la barra de búsqueda hacia la derecha */
-    display: flex;
-    align-items: center;
-}
 
-#busqueda {
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 5px;
-}
-
-#form-busqueda button {
-    padding: 8px 12px;
-    background-color: peru;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#form-busqueda button:hover {
-    background-color: #0056b3;
-}
-
-/*Opiniones*/
 
 /* Estilos para la sección de opiniones de clientes */
 #opiniones {
@@ -174,3 +151,142 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
+/*Animacion de las imagenes*/
+
+/* Estilos para la sección de productos */
+#productos {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(239, 64, 64, 0.495);
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para manejar el efecto */
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición para transformar la imagen */
+}
+
+.producto img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
+/* Estilos para la sección de productos destacados */
+#destacados {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#destacados .producto {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para manejar el efecto */
+}
+
+#destacados .producto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición para transformar la imagen */
+}
+
+#destacados .producto img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
+/* Estilos para la sección de productos más comprados */
+#productos-mas-comprados {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#productos-mas-comprados .producto-comprado {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para manejar el efecto */
+}
+
+#productos-mas-comprados .producto-comprado img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición para transformar la imagen */
+}
+
+#productos-mas-comprados .producto-comprado img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el hover */
+}
+
+
+
+/*Ancla del footer*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+
+/*Precio*/
+
+.precio {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Estilos para las imágenes de las redes sociales */
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}

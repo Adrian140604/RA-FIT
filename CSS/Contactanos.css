@@ -72,14 +72,14 @@ header {
     
 }
 
-.navegador {
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.navegador a {
+nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
@@ -87,8 +87,12 @@ header {
     border-radius: 20px;
 }
 
-#nav a:hover {
+nav a:hover {
     background-color: #555;
+}
+
+#boton a:hover {
+    background-color: #55555500;
 }
 
 #login,#registro{
@@ -116,12 +120,14 @@ header {
 
 h1 {
     text-align: center;
+    font-size: 300%;
 }
 
 .contenedor1 {
     width: 0 auto;
     margin-top: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 42%;
+
 }
 
 .contenedor2{
@@ -130,14 +136,7 @@ h1 {
     margin-bottom: 15%;
 }
 
-.contenedor3 {
-    box-sizing: border-box;
-    clear: both;
-    margin-bottom: 15%;
-    display: flex;
-    justify-content: space-between; /* Esto separa los iconos alineándolos a los extremos */
-    width: 100%;
-}
+
 
 /*Divs dentro del contenedor 3*/
 
@@ -204,19 +203,38 @@ h1 {
 }
 
 /*Estilo del horario*/
-.horario, tr, td, th {
+/* General styles for table elements */
+tr, td, th {
     border: 2px solid black;
-    border-collapse: collapse;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
+    padding: 10px;  /* Adds padding inside table cells */
 }
 
+/* Styles for the .horario class */
+.horario {
+    border: 6px double peru;
+    box-shadow: 0 0 25px rgba(135, 88, 41, 0.8);
+    border-radius: 10px;  /* Rounds the corners of the border */
+    overflow: hidden;  /* Ensures rounded corners are visible */
+}
+
+/* General styles for the table */
 table {
     width: 1000px;
     height: 400px;
     margin: 0 auto;
-    background-color: rgba(245, 245, 220, 0.804);
+    background-color: rgba(245, 245, 220, 0.9);  /* Slightly more opaque background */
+    border-collapse: collapse;
+    border-spacing: 0;  /* Ensures no space between cells */
 }
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: rgba(255, 239, 213, 0.8);  /* Changes background color on hover */
+    transition: background-color 0.3s;  /* Smooth transition for hover effect */
+}
+
 
 
 
@@ -226,7 +244,8 @@ table {
     box-sizing: border-box;
     float: left;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 20%;
+
     border: double 10px peru;
 
 }
@@ -246,8 +265,8 @@ table {
 .redes_sociales {
     box-sizing: border-box;
     float: right;
-    align-items: center;
-    margin-right: 30%;
+    align-items: flex-start;
+    margin-right: 17%;
     margin-top: 5%;
     padding: 4px;
     border: solid peru 2px;
@@ -255,14 +274,9 @@ table {
     background-color: rgba(245, 245, 220, 0.804);
 }
 
-.red1 {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;
-}
 
 
-.red2, .red3, .red4, .red5 {
+.red1 , .red2, .red3, .red4, .red5 {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
@@ -277,9 +291,30 @@ table {
     margin: 0 10px;
 }
 
+/*Hovers de las redes sociales*/
+
+.red1:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red2:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red3:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red4:hover{
+    color:rgb(135, 88, 41);
+}
+
+.red5:hover{
+    color:rgb(135, 88, 41);
+}
+
 /* Estilos del pie de página */
 footer {
-    clear: both;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -311,6 +346,50 @@ button {
     margin-left: 10px;
 }
 
+
 button:hover {
     background-color: rgb(223, 167, 111);
+}
+/* Estilos para las imágenes de las redes sociales */
+
+#flotador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resto {
+    margin-right: auto;
+}
+
+#redesSociales{
+    margin: 0 auto;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+
+
+
+.back-to-top:hover {
+    background-color: #0056b3;
 }

@@ -104,24 +104,61 @@ footer a:hover {
     color: #ffcc00;
 }
 
+
+
+/*Ancla*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+
+
 /*Estilos del carrusel*/
+
+/* Estilos del carrusel */
 
 .carousel {
     position: relative;
-    max-width: 600px; /* Ajusta el tamaño máximo del carrusel según tus necesidades */
+    width: 550px; /* Incrementa el ancho del carrusel */
+    height: 500px; /* Incrementa la altura del carrusel para que sea cuadrado */
     margin: auto;
     overflow: hidden; /* Oculta las imágenes que se salgan del contenedor */
+    border: 2px solid #ccc; /* Añade un borde para resaltar el carrusel */
+    border-radius: 10px; /* Bordes redondeados para el carrusel */
 }
 
 .carousel-images {
     display: flex; /* Utiliza Flexbox para alinear las imágenes horizontalmente */
     transition: transform 0.8s ease; /* Animación para el desplazamiento */
+    width: 100%; /* Asegura que las imágenes ocupen el ancho completo */
 }
 
 .carousel-images img {
-    width: 100%; /* Ajusta el ancho de las imágenes */
-    height: auto; /* Mantiene la proporción de aspecto */
+    width: 25%; /* Ajusta el ancho de las imágenes */
+    height: 25%; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área del contenedor */
+    flex-shrink: 0; /* Evita que las imágenes se encojan */
 }
+
+
+
+
+
 
 button {
     padding: 10px 20px;
@@ -135,13 +172,11 @@ button {
     margin-left: 10px;
 }
 
-/* Estilos del MasVendidos y OfertaFlash */
 #MasVendidos,
 #OfertaFlash,
 #precio {
     text-align: center; /* Centra el contenido de las secciones */
     display: flex; /* Utiliza flexbox para alinear elementos en línea */
-    flex-wrap: wrap; /* Envuelve los elementos en caso de que no quepan en una sola fila */
     justify-content: center; /* Centra los elementos horizontalmente */
 }
 
@@ -153,26 +188,75 @@ button {
 
 #MasVendidos img,
 #OfertaFlash img {
-    width: 400px; /* Define el ancho deseado para las imágenes */
-    height: 400px; /* Mantiene la proporción */
-    margin: 10px; /* Ajusta el espacio entre las imágenes */
+    width: 60%; /* Define el ancho deseado para las imágenes */
+    height: auto; /* Mantiene la proporción */
 }
 #h1masvendidos{
-    margin-top: 200px;
+    margin-top: 5%; /* Ajusta el margen superior */
     text-align: center;
-    font-size:8ch;
-
+    font-size: 8ch;
 }
 #precio {
     display: flex; /* Para colocar los elementos en la misma línea */
     align-items: center; /* Para centrar verticalmente los elementos */
-    margin-left: 340PX;
+    margin-left: 28%; /* Ajusta el   margen izquierdo */
 }
 
 #precio h2 {
-    margin-right: 340px; /* Ajusta la separación entre los precios */
-    margin-left: 10px; /* Mueve los precios hacia la izquierda */
+    margin-right: 40%; /* Ajusta la separación entre los precios */
+    margin-left: 1.67%; /* Mueve los precios hacia la izquierda */
 }
 #article{
-margin-bottom: 200px;
+    margin-bottom: 20%; /* Ajusta el margen inferior */
+}
+
+/* Estilos para las imágenes de las redes sociales */
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+
+/* Estilos para el artículo de opiniones */
+.opiniones {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.opiniones h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonio {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonio h2 {
+    font-size: 1.5rem; /* Ajusta el tamaño del nombre del cliente */
+    margin-bottom: 10px;
+}
+
+.testimonio p {
+    font-size: 1.1rem; /* Ajusta el tamaño de la opinión */
+    color: #666;
+    line-height: 1.6;
 }

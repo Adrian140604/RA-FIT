@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+
+button {
+        padding: 10px 20px;
+        background-color: peru;
+        color: #fff;
+        border: none;
+        border-radius: 20px; /* Bordes más redondeados */
+        cursor: pointer;
+        margin-right: 10px;
+        margin-bottom: 10px; /* Separación entre los botones */
+        margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(236, 165, 94);
+}
+
+/*Header*/
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+#logo img {
+    height: 50px;
+    border-radius: 100%;
+}
+
+#apartados a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#apartados a:hover {
+    background-color: #555;
+}
+
+#tablas{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+/*Anuncio*/
+.announcement {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.announcement h2 {
+    color: #007bff;
+}
+
+.announcement p {
+    margin: 20px 0;
+}
+
+.announcement button {
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Color azul llamativo */
+    font-size: 36px; /* Tamaño grande */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+/*Ancla del footer*/
+footer {
+    text-align: right;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para las imágenes de las redes sociales */
+#redesSociales img {
+    width: 50px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}
+.social-icon{
+    width: 10px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 5px; /* Ajusta el margen entre las imágenes */
+}

@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/producto.css">
+    <script src="../JS/Productos.js"></script>
     <title>Productos</title>
 </head>
-<body>
+
+<body id="top">
+
     <header>
         <nav id="nav">
             <div id="logo">
                 <img src="../IMAGENES/logo.png" alt="LOGO " id="logo">
             </div>
-            <a href="../HTML/Index.html">INICIO</a>
+            <a href="../Index.html">INICIO</a>
             <a href="../HTML/Productos.html">PRODUCTOS</a>
-            <a href="">RUTINAS</a>
-            <a href="../HTML/Contactanos.html">CONOCENOS</a>
-            <a href="../HTML/atencioncliente.html">ATENCIÓN AL CLIENTE</a>
-            <form action="#" method="GET" id="form-busqueda">
-                <input type="text" name="busqueda" id="busqueda" placeholder="Buscar producto...">
-                <button type="submit">BUSCAR</button>
-            </form>
-            <button type="button1">INICIA SESIÓN</button>   
-            <button type="button2">REGISTRATE</button>       
+            <a href="../HTML/Rutinas.html">RUTINAS</a>
+            <a href="../HTML/Contactanos.html">CONÓCENOS</a>
+            <a href="../HTML/acliente.html">ATENCIÓN AL CLIENTE</a>
+
+            <a href="../HTML/IniciaSesion.html"> <button type="button1">INICIA SESIÓN</button></a>
+            <a href="../HTML/Registro.html"><button type="button2">REGISTRATE</button></a>
+    
         </nav>
     </header>
+
     <section id="productos">
-        <h2>Nuestros productos en oferta</h2>
+        <h2>¡Nuestros productos en oferta!</h2>
         <div class="producto">
-            <img src="../IMAGENES/producto1.jpg" alt="Producto 1">
-            <p>Descripción del Producto 1</p>
+            <a href="../HTML/ProductoEliptica.html"><img src="../IMAGENES/Eliptica 1.png" alt="Producto 1"></a>
+            <p>Eliptica, Rafit con un 15% de descuento</p>
+            <p class="precio">Precio: 299.45$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/producto2.jpg" alt="Producto 2">
-            <p>Descripción del Producto 2</p>
+            <a href="../HTML/ProductoBalon.html"><img src="../IMAGENES/Balon medicinal Rafit.png" alt="Producto 2"></a>
+            <p>Balón medicinal 4kg Rafit, 30% de descuento</p>
+            <p class="precio">Precio: 35.55$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/producto3.jpg" alt="Producto 3">
-            <p>Descripción del Producto 3</p>
+            <a href="../HTML/ProductoToalla.html"><img src="../IMAGENES/Toalla 1.png" alt="Producto 3"></a>
+            <p>Toalla Blanca Rafit, 20% de descuento</p>
+            <p class="precio">Precio: 19.95$</p>
         </div>
     </section>
 
     <section id="destacados">
         <h2>Productos Destacados</h2>
         <div class="producto">
-            <img src="../IMAGENES/destacado1.jpg" alt="Producto Destacado 1">
-            <p>Descripción del Producto Destacado 1</p>
+            <a href="../HTML/ProductoBebida.html"><img src="../IMAGENES/Rafit bebida.png" alt="Producto Destacado 1"></a>
+            <p>Bebida energética Rafit, el mejor aliado para los amantes de rendir siempre al máximo</p>
+            <p class="precio">Precio: 2.50$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/destacado2.jpg" alt="Producto Destacado 2">
-            <p>Descripción del Producto Destacado 2</p>
+            <a href="../HTML/ProductoMochila.html"><img src="../IMAGENES/Mochila2.png" alt="Producto Destacado 2"></a>
+            <p>Mochila Rafit 4ever, para guardar tus motivaciones hasta llegar al gym</p>
+            <p class="precio">Precio: 20.00$</p>
         </div>
         <div class="producto">
-            <img src="../IMAGENES/destacado3.jpg" alt="Producto Destacado 3">
-            <p>Descripción del Producto Destacado 3</p>
+            <a href="../HTML/ProductoPesas.html"><img src="../IMAGENES/Pesas Rafit.png" alt="Producto Destacado 3"></a>
+            <p>Juego de pesas 15kg Rafit, para aquellos días en el entrenamiento habitual no es suficiente</p>
+            <p class="precio">Precio: 44.68$</p>
         </div>
     </section>
 
@@ -84,14 +93,36 @@
     <section id="productos-mas-comprados">
         <h2>¡Productos más comprados!</h2>
         <div class="producto-comprado">
-            <img src="../IMAGENES/producto1.jpg" alt="Producto 1">
-            <p>Descripción del Producto 1 más comprado</p>
+            <a href="../HTML/ProductoEsterilla.html"><img src="../IMAGENES/esterilla Rafit.png" alt="Producto 1"></a>
+            <p>Esterilla Rafit</p>
+            <p class="precio">Precio: 15.00$</p>
         </div>
         <div class="producto-comprado">
-            <img src="../IMAGENES/producto2.jpg" alt="Producto 2">
-            <p>Descripción del Producto 2 más comprado</p>
+            <a href="../HTML/ProductoBotella.html"><img src="../IMAGENES/Botellas Rafit.png" alt="Producto 2"></a>
+            <p>Pack: 3KG de protrina y Shaker.</p>
+            <p class="precio">Precio: 30.00$</p>
         </div>
     </section>
-    
+
+    <footer>
+        <nav id="nav">
+            <a href="../HTML/Contactanos.html">Contactanos</a>
+            <a href="../HTML/Contactanos.html">Sobre Nosotros</a>
+            <a href="../HTML/RSS.html">Rss</a>
+            <a href="../HTML/ERP.html">ERP</a>
+            <a href="../HTML/acliente.html">Atención al cliente</a> 
+            <a href="../HTML/Politica_cookies.html">Política de cookies</a>
+            <!-- Emoticonos de redes sociales -->
+            <div id="redesSociales">
+                <a href="../HTML/Contactanos.html" ><img src="../IMAGENES/60312da1fe41b1f2a8a84e4c959b4e0e-removebg-preview.png" alt="Instagram"></a>
+                <a href="../HTML/Contactanos.html" class="social-icon"><img src="../IMAGENES/raf_360x360_075_t_fafafa_ca443f4786-removebg-preview.png" alt="Twitter"></a>
+                <a href="../HTML/Contactanos.html" ><img src="../IMAGENES/1000_F_406691278_e25EdT3y2xZY3OArC2nxNO61Rz8e7U2b-removebg-preview.png" alt="Facebook"></a>
+            </div>
+            <!-- Volver Arriba -->
+            <a href="#top" class="back-to-top">Volver Arriba</a>
+        </nav>
+    </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atención al Cliente</title>
+    <link rel="stylesheet" href="../CSS/acliente.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div id="logo">
+                <img src="../IMAGENES/logo.png" alt="LOGO " id="logo">
+            </div>
+            <a href="../Index.html">INICIO</a>
+            <a href="../HTML/Productos.html">PRODUCTOS</a>
+            <a href="../HTML/Rutinas.html">RUTINAS</a>
+            <a href="../HTML/Contactanos.html">CONÓCENOS</a>
+            <a href="../HTML/acliente.html">ATENCIÓN AL CLIENTE</a>
+
+            <a href="../HTML/IniciaSesion.html"> <button type="button1">INICIA SESIÓN</button></a>
+            <a href="../HTML/Registro.html"><button type="button2">REGISTRATE</button></a>
+    
+        </nav>
+    </header>
+
+    <div class="welcome-message">
+        <h1>Bienvenido a nuestra página de Atención al Cliente</h1>
+        <p>Estamos aquí para ayudarte con cualquier consulta o problema que tengas. Si necesitas asistencia, no dudes en contactarnos.</p>
+    </div>
+    
+    <main>
+        <section class="formulario">
+            <h2>Problemas Comunes</h2>
+            <form action="#" method="post">
+                <div class="opciones">
+                    <div class="campo">
+                        <input type="radio" id="reembolso" name="problema" value="reembolso">
+                        <label for="reembolso">Reembolso</label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="radio" id="mal_estado" name="problema" value="mal_estado">
+                        <label for="mal_estado">Llegada en mal estado</label>
+                    </div>
+                    <div class="campo">
+                        <input type="radio" id="pago" name="problema" value="pago">
+                        <label for="pago">Problemas con el pago</label>
+                    </div>
+                    <div class="campo">
+                        <input type="radio" id="otro" name="problema" value="otro">
+                        <label for="otro">Otro</label>
+                    </div>
+                </div>
+
+                <div class="botones">
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="formulario">
+            <h2>Contacto</h2>
+            <form action="../HTML/registro_correcto.html" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="text" id="correo" name="correo">
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <section class="faq">
+        <h2 id="preguntafrecuente">Preguntas Frecuentes</h2>
+        <div class="pregunta">
+            <h3 id="preguntacliente">¿Cómo puedo realizar un seguimiento de mi pedido?</h3>
+            <p>Puedes realizar un seguimiento de tu pedido desde tu cuenta en nuestra página web, ingresando a la sección de "Mis Pedidos".</p>
+        </div>
+        <div class="pregunta">
+            <h3 id="preguntacliente">¿Cuál es el tiempo de entrega estimado?</h3>
+            <p>El tiempo de entrega estimado es de 3 a 5 días hábiles, dependiendo de tu ubicación.</p>
+        </div>
+        <div class="pregunta">
+            <h3 id="preguntacliente">¿Qué hago si recibo un producto defectuoso?</h3>
+            <p>Si recibes un producto defectuoso, por favor, contáctanos de inmediato a través del formulario de contacto o llámanos a nuestro número de atención al cliente.</p>
+        </div>
+    </section>
+
+    <section class="testimonios">
+        <h2 id="preguntafrecuente">Testimonios de Nuestros Clientes</h2>
+        <div class="testimonio">
+            <p>"El servicio al cliente fue excelente. Resolví mi problema rápidamente y de manera eficiente."</p>
+            <p id="preguntacliente"><strong>- Juan Pérez</strong></p>
+        </div>
+        <div class="testimonio">
+            <p>"Muy satisfecho con la atención recibida. Me ayudaron en todo momento y mi pedido llegó a tiempo."</p>
+            <p id="preguntacliente"><strong>- María López</strong></p>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2 id="preguntafrecuente">Últimas Noticias</h2>
+        <article class="noticia">
+            <h3 id="preguntacliente">Nueva línea de productos lanzada</h3>
+            <p>Estamos emocionados de anunciar el lanzamiento de nuestra nueva línea de productos. Visita la sección de productos para más detalles.</p>
+        </article>
+        <article class="noticia">
+            <h3 id="preguntacliente">Mejoras en el servicio de atención al cliente</h3>
+            <p>Hemos mejorado nuestro servicio de atención al cliente para ofrecerte una mejor experiencia. Contáctanos para cualquier consulta o problema.</p>
+        </article>
+    </section>
+
+    <footer>
+        <nav id="nav">
+            <a href="../HTML/Contactanos.html">Contactanos</a>
+            <a href="../HTML/Contactanos.html">Sobre Nosotros</a>
+            <a href="../HTML/RSS.html">Rss</a>
+            <a href="../HTML/ERP.html">ERP</a>
+            <a href="../HTML/acliente.html">Atención al cliente</a> 
+            <a href="../HTML/Politica_cookies.html">Política de cookies</a>
+            <!-- Emoticonos de redes sociales -->
+            <div id="redesSociales">
+                <a href="HTML/Contactanos.html" ><img src="../IMAGENES/60312da1fe41b1f2a8a84e4c959b4e0e-removebg-preview.png" alt="Instagram"></a>
+                <a href="HTML/Contactanos.html" class="social-icon"><img src="../IMAGENES/raf_360x360_075_t_fafafa_ca443f4786-removebg-preview.png" alt="Twitter"></a>
+                <a href="HTML/Contactanos.html" ><img src="../IMAGENES/1000_F_406691278_e25EdT3y2xZY3OArC2nxNO61Rz8e7U2b-removebg-preview.png" alt="Facebook"></a>
+            </div>
+            <!-- Volver Arriba -->
+            <a href="#top" class="back-to-top">Volver Arriba</a>
+        </nav>
+    </footer>
+
+    <script src="../JS/ValidaFormularioAtencionAlCliente.js"></script>
+</body>
+
+</html>
