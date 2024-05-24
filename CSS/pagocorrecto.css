@@ -1,0 +1,59 @@
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../IMAGENES/IntentoFondo5.jpg");
+    background-size: cover;
+}
+
+/* Estilo del contenedor */
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.success-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: rgb(74, 230, 46);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+button:hover {
+    background-color:peru;
+}
+
+a {
+    text-decoration: none;
+}
