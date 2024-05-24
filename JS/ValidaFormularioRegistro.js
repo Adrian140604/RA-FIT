@@ -1,8 +1,5 @@
 //Nueva validación usando un div oculto
 
-
-
-
 function validaFormulario() {
     let valido = true;
     //Acceder a los datos a validar
