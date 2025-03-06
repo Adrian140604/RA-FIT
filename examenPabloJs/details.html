@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del Evento</title>
+  <link rel="stylesheet" href="./css/simple.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Detalles del Evento</h1>
+  </header>
+
+  <main>
+    <!-- Información del Evento -->
+    <section>
+      <h2>Información del Evento</h2>
+      <p><strong>Nombre:</strong> <span id="event-name"></span></p>
+      <p><strong>Fecha:</strong> <span id="event-date"></span></p>
+      <p><strong>Ubicación:</strong> <span id="event-location"></span></p>
+    </section>
+
+    <!-- Buscar Participantes -->
+    <section>
+      <h2>Buscar Participantes</h2>
+      <form id="search-form">
+        <label for="search-input">Buscar por Nombre o Email:</label>
+        <input type="text" id="search-input" placeholder="Introduce un término de búsqueda">
+        <button type="submit">Buscar</button>
+      </form>
+      <ul id="search-results">
+        <!-- Resultados de la búsqueda cargados dinámicamente -->
+      </ul>
+    </section>
+
+    <!-- Lista de Participantes -->
+    <section>
+      <h2>Participantes</h2>
+      <ul id="participant-list">
+        <!-- Lista de participantes cargada dinámicamente -->
+      </ul>
+    </section>
+
+    <a href="index.html">Volver a la Página Principal</a>
+  </main>
+  <script src="js/details.js"></script>
+</body>
+</html>

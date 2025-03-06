@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Eventos</title>
+  <link rel="stylesheet" href="./css/simple.min.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Eventos y Participantes</h1>
+  </header>
+
+  <main>
+    <!-- Formulario de Registro de Eventos -->
+    <section>
+      <h2>Registrar Evento</h2>
+      <form id="event-form">
+        <label for="event-name">Nombre del Evento:</label>
+        <input type="text" id="event-name" name="event-name" placeholder="Introduce el nombre del evento" required minlength="3">
+
+        <label for="event-date">Fecha del Evento:</label>
+        <input type="date" id="event-date" name="event-date" required>
+
+        <label for="event-price">Precio:</label>
+        <input type="number" id="event-price" name="event-price" required>
+
+        <label for="event-location">Ubicación:</label>
+        <select id="event-location" name="event-location" required>
+          <option value="">Seleccione una ubicación</option>
+          <!-- Opciones cargadas dinámicamente -->
+        </select>
+
+        <button type="submit">Registrar Evento</button>
+      </form>
+    </section>
+
+    <!-- Formulario de Registro de Participantes -->
+    <section>
+      <h2>Registrar Participante</h2>
+      <form id="participant-form">
+        <label for="participant-name">Nombre Completo:</label>
+        <input type="text" id="participant-name" name="participant-name" placeholder="Introduce el nombre completo" required minlength="5">
+
+        <label for="participant-email">Correo Electrónico:</label>
+        <input type="email" id="participant-email" name="participant-email" placeholder="Introduce el correo electrónico" required>
+
+        <label for="participant-event">Evento Asociado:</label>
+        <select id="participant-event" name="participant-event" required>
+          <option value="">Seleccione un evento</option>
+          <!-- Opciones cargadas dinámicamente -->
+        </select>
+
+        <button type="submit">Registrar Participante</button>
+      </form>
+    </section>
+
+    <!-- Tabla Dinámica de Eventos -->
+    <section>
+      <h2>Listado de Eventos</h2>
+      <table id="events-table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Fecha</th>
+            <th>Ubicación</th>
+            <th>Participantes</th>
+            <th>Total recaudado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filas cargadas dinámicamente -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Evento con Más Participantes -->
+    <section>
+      <h2>Evento con Más Participantes</h2>
+      <div id="most-popular-event">
+        <!-- Información del evento más popular cargada dinámicamente -->
+        <p>Nombre: <span id="popular-event-name">N/A</span></p>
+        <p>Participantes: <span id="popular-event-participants">0</span></p>
+      </div>
+    </section>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>

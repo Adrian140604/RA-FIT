@@ -1,0 +1,380 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Conferencia de Tecnología",
+      "date": "2024-12-10",
+      "locationId": "loc1",
+      "price": 50
+    },
+    {
+      "id": "2",
+      "name": "Festival de Música",
+      "date": "2024-12-15",
+      "locationId": "loc2",
+      "price": 30
+    },
+    {
+      "id": "3",
+      "name": "Workshop de Diseño",
+      "date": "2024-11-20",
+      "locationId": "loc3",
+      "price": 20
+    },
+    {
+      "id": "4",
+      "name": "Hackathon de Innovación",
+      "date": "2024-12-01",
+      "locationId": "loc4",
+      "price": 40
+    },
+    {
+      "id": "5",
+      "name": "Exposición de Arte",
+      "date": "2024-11-25",
+      "locationId": "loc5",
+      "price": 15
+    },
+    {
+      "id": "6",
+      "name": "Jornada de Emprendimiento",
+      "date": "2024-11-30",
+      "locationId": "loc1",
+      "price": 25
+    },
+    {
+      "id": "7",
+      "name": "Cumbre de Clima",
+      "date": "2024-12-05",
+      "locationId": "loc2",
+      "price": 50
+    },
+    {
+      "id": "8",
+      "name": "Seminario de Marketing Digital",
+      "date": "2024-12-12",
+      "locationId": "loc3",
+      "price": 35
+    },
+    {
+      "id": "9",
+      "name": "Taller de Fotografía",
+      "date": "2024-12-20",
+      "locationId": "loc4",
+      "price": 30
+    },
+    {
+      "id": "10",
+      "name": "Concierto Solidario",
+      "date": "2024-12-25",
+      "locationId": "loc5",
+      "price": 20
+    },
+    {
+      "id": "c884",
+      "name": "test",
+      "date": "2024-12-05",
+      "locationId": "loc4",
+      "price": "5"
+    },
+    {
+      "id": "953b",
+      "name": "test2",
+      "date": "2024-12-13",
+      "locationId": "loc1",
+      "price": "600"
+    },
+    {
+      "id": "5f79",
+      "name": "test3",
+      "date": "2024-12-13",
+      "locationId": "loc3",
+      "price": "600"
+    },
+    {
+      "id": "f336",
+      "name": "testSelect",
+      "date": "2024-12-13",
+      "locationId": "loc3",
+      "price": "50"
+    },
+    {
+      "id": "abc9",
+      "name": "Evento de prueba",
+      "date": "2024-12-06",
+      "locationId": "loc5",
+      "price": "5000"
+    },
+    {
+      "id": "f9a1",
+      "name": "rrr",
+      "date": "2025-03-12",
+      "locationId": "loc1",
+      "price": "3"
+    },
+    {
+      "id": "7e83",
+      "name": "Prueba Antonio",
+      "date": "2025-03-14",
+      "locationId": "loc2",
+      "price": "20"
+    },
+    {
+      "id": "f239",
+      "name": "Rafita Events",
+      "date": "2025-03-07",
+      "locationId": "loc3",
+      "price": "90"
+    },
+    {
+      "id": "5b37",
+      "name": "aaaa",
+      "date": "2025-04-04",
+      "locationId": "loc1",
+      "price": "10"
+    },
+    {
+      "id": "f3bf",
+      "name": "La Repeticion de Adrian",
+      "date": "2025-06-12",
+      "locationId": "loc4",
+      "price": "5"
+    },
+    {
+      "id": "8825",
+      "name": "La Repeticion de Adrian v2",
+      "date": "2025-03-29",
+      "locationId": "loc4",
+      "price": "10"
+    },
+    {
+      "id": "9156",
+      "name": "La Repeticion de Adrian v3",
+      "date": "2025-03-08",
+      "locationId": "loc4",
+      "price": "15"
+    }
+  ],
+  "participants": [
+    {
+      "id": "1",
+      "name": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "eventId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Ana López",
+      "email": "ana.lopez@example.com",
+      "eventId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Carlos Gómez",
+      "email": "carlos.gomez@example.com",
+      "eventId": "2"
+    },
+    {
+      "id": "4",
+      "name": "María Fernández",
+      "email": "maria.fernandez@example.com",
+      "eventId": "4"
+    },
+    {
+      "id": "5",
+      "name": "Luis García",
+      "email": "luis.garcia@example.com",
+      "eventId": "4"
+    },
+    {
+      "id": "6",
+      "name": "Sofía Martín",
+      "email": "sofia.martin@example.com",
+      "eventId": "4"
+    },
+    {
+      "id": "7",
+      "name": "Pedro Sánchez",
+      "email": "pedro.sanchez@example.com",
+      "eventId": "6"
+    },
+    {
+      "id": "8",
+      "name": "Laura Torres",
+      "email": "laura.torres@example.com",
+      "eventId": "7"
+    },
+    {
+      "id": "9",
+      "name": "Antonio Ruiz",
+      "email": "antonio.ruiz@example.com",
+      "eventId": "8"
+    },
+    {
+      "id": "10",
+      "name": "Isabel Ortiz",
+      "email": "isabel.ortiz@example.com",
+      "eventId": "9"
+    },
+    {
+      "id": "9fc2",
+      "name": "Pablito",
+      "email": "pablito@gmail.com",
+      "eventId": "7dce"
+    },
+    {
+      "id": "2c43",
+      "name": "pabloooo",
+      "email": "pablo@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "48b8",
+      "name": "aaaaaaaaaaaa",
+      "email": "pablito@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "624f",
+      "name": "pablooooooooooooo",
+      "email": "aaaa@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "9bb3",
+      "name": "segdgsed",
+      "email": "pablito@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "5973",
+      "name": "pablhjtfyjftj",
+      "email": "trjjyt@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "631b",
+      "name": "rhgbfbnfrth",
+      "email": "pablito@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "8bf3",
+      "name": "rhdrfhbrd",
+      "email": "fgbdfb@gmailc.om",
+      "eventId": "e147"
+    },
+    {
+      "id": "6c0a",
+      "name": "hfhjnfh",
+      "email": "pablo@gmail.com",
+      "eventId": "309d"
+    },
+    {
+      "id": "6650",
+      "name": "trhjdrtjnhd",
+      "email": "fjhgjmfg@gmail.com",
+      "eventId": "e147"
+    },
+    {
+      "id": "4988",
+      "name": "rfghsdrh",
+      "email": "pablito@gmail.com",
+      "eventId": "1"
+    },
+    {
+      "id": "b4b7",
+      "name": "rfghsdrh",
+      "email": "pablito@gmail.com",
+      "eventId": "1"
+    },
+    {
+      "id": "81d6",
+      "name": "erdgbhdrh",
+      "email": "trjjyt@gmail.com",
+      "eventId": "953b"
+    },
+    {
+      "id": "1e1b",
+      "name": "ghrthrds",
+      "email": "pablo@gmail.com",
+      "eventId": "f336"
+    },
+    {
+      "id": "ae3f",
+      "name": "hsrthsrt",
+      "email": "pablito@gmail.com",
+      "eventId": "c884"
+    },
+    {
+      "id": "863a",
+      "name": "pablopablo",
+      "email": "pablito@gmail.com",
+      "eventId": "abc9"
+    },
+    {
+      "id": "460e",
+      "name": "pabloooo",
+      "email": "trjjyt@gmail.com",
+      "eventId": "abc9"
+    },
+    {
+      "id": "9cd8",
+      "name": "pabloooo",
+      "email": "aaaa@gmail.com",
+      "eventId": "abc9"
+    },
+    {
+      "id": "199e",
+      "name": "Rafita",
+      "email": "anrilo2004@gmail.com",
+      "eventId": "f239"
+    },
+    {
+      "id": "b741",
+      "name": "Rafita",
+      "email": "anrilo2004@gmail.com",
+      "eventId": "4"
+    },
+    {
+      "id": "0526",
+      "name": "Rafita33",
+      "email": "anrilo2004@gmail.com",
+      "eventId": "4"
+    },
+    {
+      "id": "c07a",
+      "name": "antonio",
+      "email": "anrilo2004@gmail.com",
+      "eventId": "1"
+    },
+    {
+      "id": "f4b5",
+      "name": "Rafita43",
+      "email": "anrilo2004@gmail.com",
+      "eventId": "1"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc1",
+      "name": "Madrid"
+    },
+    {
+      "id": "loc2",
+      "name": "Barcelona"
+    },
+    {
+      "id": "loc3",
+      "name": "Valencia"
+    },
+    {
+      "id": "loc4",
+      "name": "Sevilla"
+    },
+    {
+      "id": "loc5",
+      "name": "Granada"
+    }
+  ]
+}
